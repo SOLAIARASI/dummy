@@ -1,0 +1,1121 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-default.css">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+    .site-nav ul li a {
+      background-image: none;
+    }
+
+  </style>
+
+  
+
+  
+    <script src="/dummy/assets/js/vendor/lunr.min.js"></script>
+  
+
+  <script src="/dummy/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Setup Email Server for Faveo | Faveo Installation Guide</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Setup Email Server for Faveo" />
+<meta name="author" content="Ladybird Web Solution Pvt Ltd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Install Faveo in minutes with our awesome documentation" />
+<meta property="og:description" content="Install Faveo in minutes with our awesome documentation" />
+<link rel="canonical" href="http://localhost:4000/dummy/docs/helpers/email-server/" />
+<meta property="og:url" content="http://localhost:4000/dummy/docs/helpers/email-server/" />
+<meta property="og:site_name" content="Faveo Installation Guide" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-13T02:57:53-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Setup Email Server for Faveo" />
+<meta name="twitter:site" content="@faveohelpdesk" />
+<meta name="twitter:creator" content="@Ladybird Web Solution Pvt Ltd" />
+<meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ladybird Web Solution Pvt Ltd"},"dateModified":"2024-08-21T00:00:00-04:00","datePublished":"2025-08-13T02:57:53-04:00","description":"Install Faveo in minutes with our awesome documentation","headline":"Setup Email Server for Faveo","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dummy/docs/helpers/email-server/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/dummy/assets/images/logo.png"},"name":"Ladybird Web Solution Pvt Ltd"},"url":"http://localhost:4000/dummy/docs/helpers/email-server/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <div class="side-bar">
+  <div class="site-header" role="banner">
+    <a href="/dummy/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Faveo Installation Guide"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><a href="/dummy/about/" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/dummy/archive-layout-with-content/" class="nav-list-link">Archive Layout with Content</a></li><li class="nav-list-item"><a href="/dummy/categories/edge-case/" class="nav-list-link">Edge Case</a></li><li class="nav-list-item"><a href="/dummy/installation-scripts/FaveoInstallationScripts/" class="nav-list-link">Faveo Helpdesk Health and Status Check</a></li><li class="nav-list-item"><a href="/dummy/lorem-ipsum/" class="nav-list-link">Lorem Ipsum</a></li><li class="nav-list-item"><a href="/dummy/tags/markup/" class="nav-list-link">Markup</a></li><li class="nav-list-item"><a href="/dummy/page-a/" class="nav-list-link">Page A</a></li><li class="nav-list-item"><a href="/dummy/page-archive/" class="nav-list-link">Page Archive</a></li><li class="nav-list-item"><a href="/dummy/page-b/" class="nav-list-link">Page B</a></li><li class="nav-list-item"><a href="/dummy/404.html" class="nav-list-link">Page Not Found</a></li><li class="nav-list-item"><a href="/dummy/pets/" class="nav-list-link">Pets</a></li><li class="nav-list-item"><a href="/dummy/portfolio/" class="nav-list-link">Portfolio</a></li><li class="nav-list-item"><a href="/dummy/post-archive-feature-rows/" class="nav-list-link">Post Archive with Feature Rows</a></li><li class="nav-list-item"><a href="/dummy/categories/" class="nav-list-link">Posts by Category</a></li><li class="nav-list-item"><a href="/dummy/collection-archive/" class="nav-list-link">Posts by Collection</a></li><li class="nav-list-item"><a href="/dummy/tags/" class="nav-list-link">Posts by Tag</a></li><li class="nav-list-item"><a href="/dummy/year-archive/" class="nav-list-link">Posts by Year</a></li><li class="nav-list-item"><a href="/dummy/recipes/" class="nav-list-link">Recipes</a></li><li class="nav-list-item"><a href="/dummy/sample-page/" class="nav-list-link">Sample Page</a></li><li class="nav-list-item"><a href="/dummy/sitemap/" class="nav-list-link">Sitemap</a></li><li class="nav-list-item"><a href="/dummy/splash-page/" class="nav-list-link">Splash Page</a></li><li class="nav-list-item"><a href="/dummy/terms/" class="nav-list-link">Terms and Privacy Policy</a></li></ul>
+  
+</nav>
+
+
+
+
+  
+  
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  
+</div>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Faveo Installation Guide" aria-label="Search Faveo Installation Guide" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+</div>
+
+    <div class="main-content-wrap">
+      
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">INSTALLATION GUIDE</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-alma">Faveo on Alma Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rocky">Faveo on Rocky Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rhel">Faveo on RHEL</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-ubuntu">Faveo on Ubuntu  (Recommended)</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-debian">Faveo on Debian</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/windows-iis">Windows IIS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/apache-windows">Windows Apache Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/wamp-windows">Faveo on WAMP</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/xampp-windows/">Faveo on XAMPP</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How To's</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-php/">Upgrade PHP Version</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/generic-migration/">Faveo Migrate or Clone</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-backup/">Faveo Automated Backup</a></li>
+          
+            <li><a href="/dummy/docs/helper/cname/">Custom Domain</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/network-discovery">Install Network Discovery</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/ssl-error">SSL Error Solution (Linux)</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/meilisearch">Install Meilisearch</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/memcached">Install Memcached</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/websockets">Enable Websockets</a></li>
+          
+            <li><a href="/dummy/docs/helpers/email-server">Setup Email Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/ldaps">Configure LDAPS</a></li>
+          
+            <li><a href="/dummy/docs/helpers/server-hardening/home">Secure Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/node">Install Node</a></li>
+          
+            <li><a href="/dummy/docs/helpers/nats">Install NATS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script">Troubleshooting script</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kubernetes</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-k8s/">Faveo on Kubernetes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Docker</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-docker/">Faveo on Docker</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Setup Email Server for Faveo">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2025-08-13T02:57:53-04:00">
+    <meta itemprop="dateModified" content="2024-08-21T00:00:00-04:00">
+
+    <div class="page__inner-wrap"><header>
+<h1 id="page-title" class="page__title" itemprop="headline">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Setup Email Server for Faveo
+
+  
+  
+</h1>
+    
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc"><header>
+<h4 class="nav__title">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <i class="fas fa-file-alt"></i> On this page
+  
+  
+</h4>
+    </header>
+              <ul class="toc__menu">
+  <li><a href="#introduction">Introduction:</a>
+     -  <a href="#1-set-the-server-hostname">1. Set the Server Hostname.</a>
+     -  <a href="#2-apache-installation">2. Apache Installation</a>
+     -  <a href="#3-install-php-82">3. Install PHP 8.2+</a>
+     -  <a href="#4-install-composer">4. install composer</a>
+     -  <a href="#5-install-mysql-and-configure">5. Install MySQL and Configure</a>
+     -  <a href="#6-install-roundcube">6. Install Roundcube</a>
+     -  <a href="#7-install-letsencrypt-ssl">7. Install LetsEncrypt SSL</a>
+     -  <a href="#8-install--configure-postfix">8. Install &amp; Configure Postfix</a>
+     -  <a href="#9-create-virtual-mail-box-domains">9. Create Virtual Mail Box Domains</a>
+     -  <a href="#10-install--configure-dovecot">10. Install &amp; Configure Dovecot</a>
+     -  <a href="#11-dns-records-setup">11. DNS Records Setup</a>
+         -  <a href="#a-record">A Record</a>
+         -  <a href="#mx-record">MX Record</a>
+         -  <a href="#spf-record">SPF Record</a>
+         -  <a href="#dmarc-record">DMARC Record</a>
+         -  <a href="#generate-dkim-keys">Generate DKIM Keys</a>
+         -  <a href="#dkim-record">DKIM Record</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p><img alt="ftp" src="https://www.freeiconspng.com/uploads/mail-server-icon-png-14.png" width="200" /></p>
+<h1 id="introduction">
+  
+  
+    <a href="#introduction" class="anchor-heading" aria-labelledby="introduction"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction:
+  
+  
+</h1>
+    
+<p>Setting up your own email server on Ubuntu Server allows you to have complete control over your email communication without relying on third-party services. By following these instructions, you can bypass daily email limits and ensure reliable delivery for your business or personal needs.</p>
+
+<p>Setting up your own email server on Ubuntu 22.04 involves several steps including installing and configuring the necessary software, setting up DNS records, and securing your server. Below are the instructions, commands, and DNS records you’ll need:</p>
+<h3 id="1-set-the-server-hostname">
+  
+  
+    <a href="#1-set-the-server-hostname" class="anchor-heading" aria-labelledby="1-set-the-server-hostname"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 1. Set the Server Hostname.
+  
+  
+</h3>
+    
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo hostnamectl set-hostname mail.yourdomain.com
+</code></pre></div></div>
+<p>Adding Local DNS Entry</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>127.0.0.1  localhost mail.example.com
+</code></pre></div></div>
+<h3 id="2-apache-installation">
+  
+  
+    <a href="#2-apache-installation" class="anchor-heading" aria-labelledby="2-apache-installation"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 2. Apache Installation
+  
+  
+</h3>
+    
+
+<p>Run the following commands as sudoers or Login as root user by typing the command below</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>su
+</code></pre></div></div>
+
+<p>Update your package list</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt update <span class="o">&amp;&amp;</span> apt upgrade <span class="nt">-y</span>
+</code></pre></div></div>
+
+<p>Apache should come pre-installed with your server. If it’s not, install it with:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install</span> <span class="nt">-y</span> software-properties-common
+<span class="nb">sudo </span>add-apt-repository ppa:ondrej/apache2
+<span class="nb">sudo </span>apt update
+apt <span class="nb">install </span>apache2 <span class="nt">-y</span>
+systemctl start apache2
+systemctl <span class="nb">enable </span>apache2
+</code></pre></div></div>
+
+<p>Configure a new roundcube in apache by doing:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/apache2/sites-available/roundcube.conf
+</code></pre></div></div>
+
+<p>Pick a editor of your choice copy the following and replace ‘–DOMAINNAME–’ with the Domainname mapped to your Server’s IP or you can just comment the ‘ServerName’ directive if Roundcube is the only website served by your server.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;IfModule !headers_module&gt;
+    LoadModule headers_module modules/mod_headers.so
+&lt;/IfModule&gt;
+
+FileETag None
+ServerTokens prod
+ServerSignature off
+TraceEnable off
+#Protocols http/1.1 h2
+
+&lt;VirtualHost *:80&gt;
+    ServerName mail.domain.com
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/roundcube
+    
+    &lt;Directory /var/www/roundcube/&gt;
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    &lt;/Directory&gt;
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+&lt;/VirtualHost&gt;
+
+&lt;IfModule mod_headers.c&gt;
+    Header set Content-Security-Policy "frame-ancestors 'self'"
+    Header set Referrer-Policy "no-referrer-when-downgrade"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Permissions-Policy "geolocation=(self), microphone=()"
+    Header set Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+    Header set Expect-CT "max-age=86400, enforce"
+    Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+&lt;/IfModule&gt;
+</code></pre></div></div>
+<h3 id="3-install-php-82">
+  
+  
+    <a href="#3-install-php-82" class="anchor-heading" aria-labelledby="3-install-php-82"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 3. Install PHP 8.2+
+  
+  
+</h3>
+    
+
+<p>First add this PPA repository:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>add-apt-repository ppa:ondrej/php
+</code></pre></div></div>
+
+<p>Then install php 8.2 with these extensions:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt update
+apt <span class="nb">install</span> <span class="nt">-y</span> php8.2 libapache2-mod-php8.2 php8.2-mysql <span class="se">\</span>
+    php8.2-cli php8.2-common php8.2-fpm php8.2-soap php8.2-gd <span class="se">\</span>
+    php8.2-opcache  php8.2-mbstring php8.2-zip <span class="se">\</span>
+    php8.2-bcmath php8.2-intl php8.2-xml php8.2-curl  <span class="se">\</span>
+    php8.2-imap php8.2-ldap php8.2-gmp php8.2-redis php8.2-imagick
+</code></pre></div></div>
+<p>After installing PHP 8.2, run the commands below to open PHP default config file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo sed -i -e 's|^file_uploads =.*|file_uploads = On|' \
+           -e 's|^allow_url_fopen =.*|allow_url_fopen = On|' \
+           -e 's|^short_open_tag =.*|short_open_tag = On|' \
+           -e 's|^memory_limit =.*|memory_limit = 256M|' \
+           -e 's|^;cgi.fix_pathinfo=1.*|cgi.fix_pathinfo = 0|' \
+           -e 's|^upload_max_filesize =.*|upload_max_filesize = 100M|' \
+           -e 's|^post_max_size =.*|post_max_size = 100M|' \
+           -e 's|^max_execution_time =.*|max_execution_time = 360|' \
+           -e 's|^;pcre.backtrack_limit=100000.*|pcre.backtrack_limit = 100000|' \
+           -e 's|^;date.timezone =.*|date.timezone = "Asia/Kolkata"|' \
+           /etc/php/8.2/fpm/php.ini
+</code></pre></div></div>
+
+<p>Enable the Configuration:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a2enmod proxy_fcgi setenvif rewrite headers
+a2dissite 000-default.conf
+a2ensite roundcube.conf
+a2enconf php8.2-fpm
+service php8.2-fpm restart
+service apache2 restart
+</code></pre></div></div>
+<h3 id="4-install-composer">
+  
+  
+    <a href="#4-install-composer" class="anchor-heading" aria-labelledby="4-install-composer"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 4. install composer
+  
+  
+</h3>
+    
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+sudo mv composer.phar /usr/local/bin/composer
+</code></pre></div></div>
+<h3 id="5-install-mysql-and-configure">
+  
+  
+    <a href="#5-install-mysql-and-configure" class="anchor-heading" aria-labelledby="5-install-mysql-and-configure"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 5. Install MySQL and Configure
+  
+  
+</h3>
+    
+
+<p>Install Mysql 8.0. Note that this only installs the package, but does not setup Mysql. This is done later in the instructions:</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt <span class="nb">install </span>mysql-server 
+<span class="nb">sudo </span>systemctl start mysql
+<span class="nb">sudo </span>systemctl <span class="nb">enable </span>mysql
+</code></pre></div></div>
+
+<p>Secure your MySql installation by executing the below command. Set Password for mysql root user, remove anonymous users, disallow remote root login, remove the test databases and finally reload the privilege tables.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql_secure_installation 
+</code></pre></div></div>
+<p>With MySQL you can set up the database by issuing the following commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CREATE DATABASE roundcubemail CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE USER 'roundcube'@'localhost' IDENTIFIED BY 'Strong-Password';
+GRANT ALL PRIVILEGES ON roundcubemail . * TO 'roundcube'@'localhost';
+FLUSH PRIVILEGES;
+exit
+</code></pre></div></div>
+<h3 id="6-install-roundcube">
+  
+  
+    <a href="#6-install-roundcube" class="anchor-heading" aria-labelledby="6-install-roundcube"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 6. Install Roundcube
+  
+  
+</h3>
+    
+
+<p>Download Roundcube:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd /tmp
+wget https://github.com/roundcube/roundcubemail/releases/download/1.6.8/roundcubemail-1.6.8-complete.tar.gz
+</code></pre></div></div>
+
+<p>Extract Roundcube:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tar -zxvf roundcubemail-1.6.8-complete.tar.gz
+sudo mv roundcubemail-1.6.8 /var/www/roundcube
+</code></pre></div></div>
+
+<p>Set Permissions</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chown -R www-data:www-data /var/www/roundcube
+sudo chmod -R 755 /var/www/roundcube
+</code></pre></div></div>
+
+<p>With MySQL you can import the initial tables with the following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mysql roundcubemail &lt; /var/www/roundcube/SQL/mysql.initial.sql
+</code></pre></div></div>
+
+<p>Now open your web browser and go to http://mail.example.com/installer and you will see the following screen:</p>
+
+<p><img alt="roiundcube" src="https://raw.githubusercontent.com/ladybirdweb/faveo-server-images/master/_docs/installation/providers/enterprise/roundcube-images/web-installer.png" width="600" /></p>
+
+<p>If all required modules and extensions are installed, press NEXT and go to the next step.</p>
+
+<p>On the next page, navigate to Database Setup settings and enter the database name, user and password that you created above.</p>
+
+<p>Under SMTP settings, check the box ‘Use the current IMAP username and password for SMTP authentication’:</p>
+
+<p><img alt="roiundcube" src="https://raw.githubusercontent.com/ladybirdweb/faveo-server-images/master/_docs/installation/providers/enterprise/roundcube-images/db-config.png" width="600" /></p>
+
+<p>After complete configuration , Press CREATE CONFIG to finish the installation. You will then be notified that the configuration has been successfully created.</p>
+
+<p><img alt="roiundcube" src="https://raw.githubusercontent.com/ladybirdweb/faveo-server-images/master/_docs/installation/providers/enterprise/roundcube-images/create-config.png" width="600" /></p>
+
+<p>Once everything is setup and working, open your terminal and remove the installation directory with the following command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rm -rf /var/www/roundcube/installer
+</code></pre></div></div>
+
+<p>Access Roundcube at http://mail.yourdomain.com.</p>
+
+<p><img alt="roiundcube" src="https://raw.githubusercontent.com/ladybirdweb/faveo-server-images/master/_docs/installation/providers/enterprise/roundcube-images/homepage.png" width="600" /></p>
+<h3 id="7-install-letsencrypt-ssl">
+  
+  
+    <a href="#7-install-letsencrypt-ssl" class="anchor-heading" aria-labelledby="7-install-letsencrypt-ssl"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 7. Install LetsEncrypt SSL
+  
+  
+</h3>
+    
+
+<p>Install Certbot and the Apache plugin:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt install python3-certbot-apache
+</code></pre></div></div>
+
+<p>Obtain and configure the SSL certificate:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>certbot --apache -d mail.domain.com
+</code></pre></div></div>
+
+<p>Setting up auto renewal of the certificate</p>
+
+<p>Create a new /etc/cron.d/roundcube-ssl file with:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo "45 2 * * 6 /etc/letsencrypt/ &amp;&amp; ./certbot renew &amp;&amp; systemctl restart apache2" | sudo tee /etc/cron.d/roundcube-ssl
+</code></pre></div></div>
+<h3 id="8-install--configure-postfix">
+  
+  
+    <a href="#8-install--configure-postfix" class="anchor-heading" aria-labelledby="8-install--configure-postfix"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 8. Install &amp; Configure Postfix
+  
+  
+</h3>
+    
+
+<p>install the Postfix server by running the command below.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update -y
+sudo apt install -y postfix
+</code></pre></div></div>
+
+<p>You’ll get the Postfix configuration screen, as shown below. Press <em>Tab</em> and <em>Enter</em> to continue.</p>
+
+<p><img alt="roiundcube" src="https://raw.githubusercontent.com/ladybirdweb/faveo-server-images/master/_docs/installation/providers/enterprise/roundcube-images/postfix-main.png" width="400" /></p>
+
+<p>On the next screen, select Internet Site, then <em>Tab</em> and <em>Enter</em>.</p>
+
+<p><img alt="roiundcube" src="https://raw.githubusercontent.com/ladybirdweb/faveo-server-images/master/_docs/installation/providers/enterprise/roundcube-images/postfix-internet-site.png" width="300" /></p>
+
+<p>Enter the system mail name, which is your domain name. For instance, the server name is <em>mail.example.com</em>, so you’ll enter <em>example.com</em> here.</p>
+
+<p><img alt="roiundcube" src="https://raw.githubusercontent.com/ladybirdweb/faveo-server-images/master/_docs/installation/providers/enterprise/roundcube-images/postfix-domain.png" width="400" /></p>
+
+<p>Back up the the <em>/etc/postfix/main.cf</em> file, and create a new one.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo mv /etc/postfix/main.cf /etc/postfix/main.cf.bk
+sudo nano /etc/postfix/main.cf
+</code></pre></div></div>
+
+<p>Enter the information below to the new file. Replace example.com with your domain name throughout the file. Make sure the value of <em>smtpd_tls_cert_file</em> and <em>smtpd_tls_key_file</em> point to your SSL certificate.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>smtpd_banner = $myhostname ESMTP $mail_name
+biff = no
+append_dot_mydomain = no
+readme_directory = no
+
+# TLS parameters
+smtp_use_tls = yes
+smtp_tls_security_level = may
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+
+smtpd_use_tls = yes
+smtpd_tls_security_level = may
+smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
+smtpd_tls_cert_file = /etc/letsencrypt/live/domain.com/fullchain.pem
+smtpd_tls_key_file = /etc/letsencrypt/live/domain.com/privkey.pem
+smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated,  reject_unauth_destination
+smtpd_recipient_restrictions = permit_mynetworks, permit_sasl_authenticated, reject_unauth_destination
+
+smtpd_sasl_auth_enable = yes
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+
+virtual_transport = lmtp:unix:private/dovecot-lmtp
+virtual_mailbox_domains = /etc/postfix/virtual_mailbox_domains
+
+myhostname = mail.domain.com
+myorigin = /etc/mailname
+mydestination =  localhost.$mydomain, localhost
+relayhost =
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+mailbox_size_limit = 0
+recipient_delimiter = +
+inet_interfaces = all
+inet_protocols = all
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+</code></pre></div></div>
+<p>Save and close the file.</p>
+<h3 id="9-create-virtual-mail-box-domains">
+  
+  
+    <a href="#9-create-virtual-mail-box-domains" class="anchor-heading" aria-labelledby="9-create-virtual-mail-box-domains"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 9. Create Virtual Mail Box Domains
+  
+  
+</h3>
+    
+
+<p>The main.cf configuration file instructs postfix to look for email domains in the <em>/etc/postfix/virtual_mailbox_domains</em> file. Create the file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/postfix/virtual_mailbox_domains
+</code></pre></div></div>
+<p>Add the information below to the file and replace example.com with your domain name.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>example.com #domain
+</code></pre></div></div>
+
+<p>Use the postmap command to change /etc/postfix/virtual_mailbox_domains to a format recognizable by Postfix. Run this command every time you edit the file, for instance, after adding more domains to the file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo postmap /etc/postfix/virtual_mailbox_domains
+</code></pre></div></div>
+
+<p>Edit the /etc/postfix/master.cf configuration file to enable the SMTP service.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/postfix/master.cf
+</code></pre></div></div>
+
+<p>Add or Modify the SMTPS Service:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>submission inet n       -       y       -       -       smtpd
+
+smtps     inet  n       -       y       -       -       smtpd
+  -o syslog_name=postfix/smtps
+  -o smtpd_tls_wrappermode=yes
+  -o smtpd_sasl_auth_enable=yes
+  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
+  -o milter_macro_daemon_name=ORIGINATING
+
+</code></pre></div></div>
+
+<p>Save and close the file.</p>
+<h3 id="10-install--configure-dovecot">
+  
+  
+    <a href="#10-install--configure-dovecot" class="anchor-heading" aria-labelledby="10-install--configure-dovecot"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 10. Install &amp; Configure Dovecot
+  
+  
+</h3>
+    
+
+<p>Install the Dovecot package and all the dependency packages required to run the imap, pop3, and lmtp service.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install -y dovecot-core dovecot-imapd dovecot-pop3d dovecot-lmtpd
+</code></pre></div></div>
+
+<p>Edit the 10-mail.conf file to specify the mail storage location:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/dovecot/conf.d/10-mail.conf
+</code></pre></div></div>
+
+<p>Find the line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mail_location = mbox:~/mail:INBOX=/var/mail/%u 
+</code></pre></div></div>
+
+<p>Replace it with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> mail_location = maildir:/var/mail/vhosts/%d/%n
+</code></pre></div></div>
+
+<p>Save and close the file. The %d represents the domain, and %n represents the users. This means that you’ll need to create a sub-directory in the /var/mail/vhosts for every domain receiving emails on your server.</p>
+
+<p>Create the directory for your domain:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir -p /var/mail/vhosts/example.com
+</code></pre></div></div>
+
+<p>Create a group and user for Dovecot:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo groupadd -g 5000 vmail
+sudo useradd -r -g vmail -u 5000 vmail -d /var/mail/vhosts -c "Virtual Mail User"
+</code></pre></div></div>
+
+<p>Set ownership for the mail directory:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chown -R vmail:vmail /var/mail/vhosts/
+</code></pre></div></div>
+
+<p>Edit the 10-master.conf file to set up the SSL and LMTP services:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/dovecot/conf.d/10-master.conf
+</code></pre></div></div>
+
+<p>Add or modify the following sections:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>inet_listener imaps {
+   port = 993
+   ssl = yes
+}
+
+inet_listener pop3s {
+   port = 995
+   ssl = yes
+}
+
+service lmtp {
+   unix_listener /var/spool/postfix/private/dovecot-lmtp {
+     mode = 0600
+     user = postfix
+     group = postfix
+   }
+}
+
+unix_listener /var/spool/postfix/private/auth {
+  mode = 0666
+  user = postfix
+  group = postfix
+}
+</code></pre></div></div>
+
+<p>Save and close the file.</p>
+
+<p>Edit the 10-auth.conf file to configure authentication mechanisms:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/dovecot/conf.d/10-auth.conf
+</code></pre></div></div>
+<p>Set:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>disable_plaintext_auth = yes
+auth_mechanisms = plain login
+</code></pre></div></div>
+
+<p>Disable system account authentication and enable password file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Comment out the following line:
+#!include auth-system.conf.ext
+
+# Uncomment this line:
+!include auth-passwdfile.conf.ext
+</code></pre></div></div>
+
+<p>Edit the Dovecot password file, auth-passwdfile.conf.ext.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/dovecot/conf.d/auth-passwdfile.conf.ext
+</code></pre></div></div>
+
+<p>Update it with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>passdb {
+    driver = passwd-file
+    args = scheme=PLAIN username_format=%u /etc/dovecot/dovecot-users
+}
+
+userdb {
+    driver = static
+    args = uid=vmail gid=vmail home=/var/mail/vhosts/%d/%n
+}
+</code></pre></div></div>
+
+<p>Create the /etc/dovecot/dovecot-users password file. This file is a plain text database that holds email users on your server.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/dovecot/dovecot-users
+</code></pre></div></div>
+
+<p>Add your email users in the following format:</p>
+
+<ul>
+  <li>Replace EXAMPLE_PASSWORD with strong passwords and example.com with your domain.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>admin@example.com:{plain}EXAMPLE_PASSWORD
+info@example.com:{plain}EXAMPLE_PASSWORD
+billing@example.com:{plain}EXAMPLE_PASSWORD
+</code></pre></div></div>
+
+<p>Configure Dovecot to Use the SSL Certificate. Open the /etc/dovecot/conf.d/10-ssl.conf file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/dovecot/conf.d/10-ssl.conf
+</code></pre></div></div>
+
+<p>Set:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssl = required
+ssl_cert = &lt;/etc/letsencrypt/live/example.com/fullchain.pem
+ssl_key = &lt;/etc/letsencrypt/live/example.com/privkey.pem
+</code></pre></div></div>
+
+<p>Restart the postfix and dovecot services to use the new settings.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service postfix restart 
+sudo service dovecot restart
+</code></pre></div></div>
+<h3 id="11-dns-records-setup">
+  
+  
+    <a href="#11-dns-records-setup" class="anchor-heading" aria-labelledby="11-dns-records-setup"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 11. DNS Records Setup
+  
+  
+</h3>
+    
+<h4 id="a-record">
+  
+  
+    <a href="#a-record" class="anchor-heading" aria-labelledby="a-record"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> A Record
+  
+  
+</h4>
+    
+
+<p>Maps your mail server domain to its IP address.</p>
+
+<ul>
+  <li>Type: A</li>
+  <li>Name: mail.domain.com</li>
+  <li>Value: [Your Mail Server’s IP Address]</li>
+  <li>TTL: 3600 (default or your preferred value)</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mail.domain.com.    IN    A    203.0.113.1
+</code></pre></div></div>
+<h4 id="mx-record">
+  
+  
+    <a href="#mx-record" class="anchor-heading" aria-labelledby="mx-record"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> MX Record
+  
+  
+</h4>
+    
+
+<p>Specifies the mail servers responsible for handling email for your domain.</p>
+
+<ul>
+  <li>Type: MX</li>
+  <li>Name: domain.com</li>
+  <li>Priority: 10 (or your preferred priority)</li>
+  <li>TTL: 3600 (default or your preferred value)</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>domain.com.    IN    MX    10 mail.domain.com.
+</code></pre></div></div>
+<h4 id="spf-record">
+  
+  
+    <a href="#spf-record" class="anchor-heading" aria-labelledby="spf-record"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> SPF Record
+  
+  
+</h4>
+    
+
+<p>Defines which mail servers are authorized to send email on behalf of your domain, helping to prevent spoofing.</p>
+
+<ul>
+  <li>Type: TXT</li>
+  <li>Name: domain.com</li>
+  <li>Value: v=spf1 ip4:[Your Mail Server’s IP Address] -all</li>
+  <li>TTL: 3600 (default or your preferred value)</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>domain.com.    IN    TXT    "v=spf1 ip4:203.0.113.1 -all"
+</code></pre></div></div>
+<h4 id="dmarc-record">
+  
+  
+    <a href="#dmarc-record" class="anchor-heading" aria-labelledby="dmarc-record"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> DMARC Record
+  
+  
+</h4>
+    
+
+<p>Provides instructions on how to handle emails that fail SPF or DKIM checks and where to send reports.</p>
+
+<ul>
+  <li>Type: TXT</li>
+  <li>Name: _dmarc.domain.com</li>
+  <li>Value: v=DMARC1; p=none; rua=mailto:admin@domain.com</li>
+  <li>TTL: 3600 (default or your preferred value)</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_dmarc.domain.com.    IN    TXT    "v=DMARC1; p=none; rua=mailto:admin@domain.com"
+</code></pre></div></div>
+<h4 id="generate-dkim-keys">
+  
+  
+    <a href="#generate-dkim-keys" class="anchor-heading" aria-labelledby="generate-dkim-keys"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Generate DKIM Keys
+  
+  
+</h4>
+    
+
+<p>Install OpenDKIM:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt update
+sudo apt install opendkim opendkim-tools
+</code></pre></div></div>
+<p>Create a directory for your DKIM keys and generate a key pair:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo mkdir -p /etc/opendkim/keys/domain.com
+sudo opendkim-genkey -t -s default -d domain.com -b 2048 -r -a rsa-sha256
+sudo mv default.private /etc/opendkim/keys/domain.com/
+sudo mv default.txt /etc/opendkim/keys/domain.com/
+</code></pre></div></div>
+
+<p>This generates two files:</p>
+<ul>
+  <li>default.private (your private key)</li>
+  <li>default.txt (your DKIM DNS TXT record)</li>
+</ul>
+
+<p>Edit the OpenDKIM configuration file to include your DKIM settings:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/opendkim.conf
+</code></pre></div></div>
+
+<p>Add or modify the following lines:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Domain                  domain.com
+KeyFile                 /etc/opendkim/keys/domain.com/default.private
+Selector                default
+Socket                  inet:8891@localhost
+</code></pre></div></div>
+
+<p>Configure your mail server (Postfix) to use OpenDKIM:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/postfix/main.cf
+</code></pre></div></div>
+
+<p>Add or modify these lines:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>milter_protocol = 2
+milter_default_action = accept
+smtpd_milters = inet:localhost:8891
+non_smtpd_milters = $smtpd_milters
+</code></pre></div></div>
+
+<p>Restart Postfix and OpenDKIM:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service postfix restart
+sudo service opendkim restart
+</code></pre></div></div>
+<h4 id="dkim-record">
+  
+  
+    <a href="#dkim-record" class="anchor-heading" aria-labelledby="dkim-record"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> DKIM Record
+  
+  
+</h4>
+    
+
+<ul>
+  <li>Type: TXT</li>
+  <li>Name: default._domainkey.domain.com</li>
+  <li>Value: Copy the entire content from the default.txt file</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>default._domainkey.domain.com.    IN    TXT    "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7A6+Nw6...&lt;rest of your key&gt;"
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-08-21">August 21, 2024</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/dummy/docs/helper/cname/" class="pagination--pager" title="Creating Custom Domains for Faveo Cloud
+">Previous</a>
+    
+    
+      <a href="/dummy/docs/helper/enable-redis/" class="pagination--pager" title="Enable Redis in Faveo
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+          
+
+          
+            
+          
+        </main>
+        
+
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+</body>
+</html>
+

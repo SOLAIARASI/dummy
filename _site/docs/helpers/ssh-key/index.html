@@ -1,0 +1,638 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-default.css">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+    .site-nav ul li a {
+      background-image: none;
+    }
+
+  </style>
+
+  
+
+  
+    <script src="/dummy/assets/js/vendor/lunr.min.js"></script>
+  
+
+  <script src="/dummy/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SSH Key Authentication Setup Guide | Faveo Installation Guide</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="SSH Key Authentication Setup Guide" />
+<meta name="author" content="Ladybird Web Solution Pvt Ltd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Install Faveo in minutes with our awesome documentation" />
+<meta property="og:description" content="Install Faveo in minutes with our awesome documentation" />
+<link rel="canonical" href="http://localhost:4000/dummy/docs/helpers/ssh-key/" />
+<meta property="og:url" content="http://localhost:4000/dummy/docs/helpers/ssh-key/" />
+<meta property="og:site_name" content="Faveo Installation Guide" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-13T02:57:53-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SSH Key Authentication Setup Guide" />
+<meta name="twitter:site" content="@faveohelpdesk" />
+<meta name="twitter:creator" content="@Ladybird Web Solution Pvt Ltd" />
+<meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ladybird Web Solution Pvt Ltd"},"dateModified":"2025-06-12T00:00:00-04:00","datePublished":"2025-08-13T02:57:53-04:00","description":"Install Faveo in minutes with our awesome documentation","headline":"SSH Key Authentication Setup Guide","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dummy/docs/helpers/ssh-key/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/dummy/assets/images/logo.png"},"name":"Ladybird Web Solution Pvt Ltd"},"url":"http://localhost:4000/dummy/docs/helpers/ssh-key/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <div class="side-bar">
+  <div class="site-header" role="banner">
+    <a href="/dummy/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Faveo Installation Guide"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><a href="/dummy/about/" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/dummy/archive-layout-with-content/" class="nav-list-link">Archive Layout with Content</a></li><li class="nav-list-item"><a href="/dummy/categories/edge-case/" class="nav-list-link">Edge Case</a></li><li class="nav-list-item"><a href="/dummy/installation-scripts/FaveoInstallationScripts/" class="nav-list-link">Faveo Helpdesk Health and Status Check</a></li><li class="nav-list-item"><a href="/dummy/lorem-ipsum/" class="nav-list-link">Lorem Ipsum</a></li><li class="nav-list-item"><a href="/dummy/tags/markup/" class="nav-list-link">Markup</a></li><li class="nav-list-item"><a href="/dummy/page-a/" class="nav-list-link">Page A</a></li><li class="nav-list-item"><a href="/dummy/page-archive/" class="nav-list-link">Page Archive</a></li><li class="nav-list-item"><a href="/dummy/page-b/" class="nav-list-link">Page B</a></li><li class="nav-list-item"><a href="/dummy/404.html" class="nav-list-link">Page Not Found</a></li><li class="nav-list-item"><a href="/dummy/pets/" class="nav-list-link">Pets</a></li><li class="nav-list-item"><a href="/dummy/portfolio/" class="nav-list-link">Portfolio</a></li><li class="nav-list-item"><a href="/dummy/post-archive-feature-rows/" class="nav-list-link">Post Archive with Feature Rows</a></li><li class="nav-list-item"><a href="/dummy/categories/" class="nav-list-link">Posts by Category</a></li><li class="nav-list-item"><a href="/dummy/collection-archive/" class="nav-list-link">Posts by Collection</a></li><li class="nav-list-item"><a href="/dummy/tags/" class="nav-list-link">Posts by Tag</a></li><li class="nav-list-item"><a href="/dummy/year-archive/" class="nav-list-link">Posts by Year</a></li><li class="nav-list-item"><a href="/dummy/recipes/" class="nav-list-link">Recipes</a></li><li class="nav-list-item"><a href="/dummy/sample-page/" class="nav-list-link">Sample Page</a></li><li class="nav-list-item"><a href="/dummy/sitemap/" class="nav-list-link">Sitemap</a></li><li class="nav-list-item"><a href="/dummy/splash-page/" class="nav-list-link">Splash Page</a></li><li class="nav-list-item"><a href="/dummy/terms/" class="nav-list-link">Terms and Privacy Policy</a></li></ul>
+  
+</nav>
+
+
+
+
+  
+  
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  
+</div>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Faveo Installation Guide" aria-label="Search Faveo Installation Guide" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+</div>
+
+    <div class="main-content-wrap">
+      
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">INSTALLATION GUIDE</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-alma">Faveo on Alma Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rocky">Faveo on Rocky Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rhel">Faveo on RHEL</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-ubuntu">Faveo on Ubuntu  (Recommended)</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-debian">Faveo on Debian</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/windows-iis">Windows IIS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/apache-windows">Windows Apache Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/wamp-windows">Faveo on WAMP</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/xampp-windows/">Faveo on XAMPP</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How To's</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-php/">Upgrade PHP Version</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/generic-migration/">Faveo Migrate or Clone</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-backup/">Faveo Automated Backup</a></li>
+          
+            <li><a href="/dummy/docs/helper/cname/">Custom Domain</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/network-discovery">Install Network Discovery</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/ssl-error">SSL Error Solution (Linux)</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/meilisearch">Install Meilisearch</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/memcached">Install Memcached</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/websockets">Enable Websockets</a></li>
+          
+            <li><a href="/dummy/docs/helpers/email-server">Setup Email Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/ldaps">Configure LDAPS</a></li>
+          
+            <li><a href="/dummy/docs/helpers/server-hardening/home">Secure Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/node">Install Node</a></li>
+          
+            <li><a href="/dummy/docs/helpers/nats">Install NATS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script">Troubleshooting script</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kubernetes</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-k8s/">Faveo on Kubernetes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Docker</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-docker/">Faveo on Docker</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SSH Key Authentication Setup Guide">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2025-08-13T02:57:53-04:00">
+    <meta itemprop="dateModified" content="2025-06-12T00:00:00-04:00">
+
+    <div class="page__inner-wrap"><header>
+<h1 id="page-title" class="page__title" itemprop="headline">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> SSH Key Authentication Setup Guide
+
+  
+  
+</h1>
+    
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc"><header>
+<h4 class="nav__title">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <i class="fas fa-file-alt"></i> On this page
+  
+  
+</h4>
+    </header>
+              <ul class="toc__menu">
+  <li><a href="#introduction">Introduction</a>
+    <ul>
+      <li><a href="#why-use-ssh-key-authentication">Why Use SSH Key Authentication?</a></li>
+      <li><a href="#generate-an-ssh-key-on-a-linux-servermachine">Generate an SSH Key on a Linux Server/Machine</a></li>
+      <li><a href="#configure-key-permissions-and-location-for-www-data">Configure Key Permissions and Location for www-data</a>
+        <ul>
+          <li><a href="#why-are-we-storing-the-ssh-key-under-varwww">Why are we storing the SSH key under /var/www/?</a></li>
+        </ul>
+      </li>
+      <li><a href="#copy-ssh-public-key-to-target-devices">Copy SSH Public Key to Target Devices</a>
+        <ul>
+          <li><a href="#for-linuxmac-devices">For Linux/Mac Devices:</a></li>
+          <li><a href="#for-windows-devices">For Windows Devices:</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p><img src="https://lcdung.top/wp-content/uploads/2016/10/Create-SSH-Key.png" alt="" style=" width:600px ; height:170px " /></p><hr />
+<h1 id="introduction">
+  
+  
+    <a href="#introduction" class="anchor-heading" aria-labelledby="introduction"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction
+  
+  
+</h1>
+    
+<p>SSH keys are a secure and convenient method to log in to remote systems without needing to enter a password each time. Instead of using a password, a pair of cryptographic keys <em>(a public key and a private key)</em> are used to authenticate the user.</p>
+<h2 id="why-use-ssh-key-authentication">
+  
+  
+    <a href="#why-use-ssh-key-authentication" class="anchor-heading" aria-labelledby="why-use-ssh-key-authentication"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Why Use SSH Key Authentication?
+  
+  
+</h2>
+    
+<ul>
+  <li>
+    <p><strong>Improved Security:</strong> SSH keys are more secure than passwords.</p>
+  </li>
+  <li>
+    <p><strong>Convenience:</strong> You don’t need to type the password every time.</p>
+  </li>
+  <li>
+    <p><strong>Automation:</strong> Useful for automated scripts and tools that need to connect to remote servers.</p>
+  </li>
+</ul>
+<h2 id="generate-an-ssh-key-on-a-linux-servermachine">
+  
+  
+    <a href="#generate-an-ssh-key-on-a-linux-servermachine" class="anchor-heading" aria-labelledby="generate-an-ssh-key-on-a-linux-servermachine"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Generate an SSH Key on a Linux Server/Machine
+  
+  
+</h2>
+    
+
+<p>To Create a SSH Key Pair run the following command inside the <code><b>/var/www/</b></code> directory:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd /var/www
+ssh-keygen -t rsa -b 4096
+</code></pre></div></div>
+<p>When prompted, just press Enter to accept the default file name and set a password of your choice.</p>
+<h2 id="configure-key-permissions-and-location-for-www-data">
+  
+  
+    <a href="#configure-key-permissions-and-location-for-www-data" class="anchor-heading" aria-labelledby="configure-key-permissions-and-location-for-www-data"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Configure Key Permissions and Location for www-data
+  
+  
+</h2>
+    
+
+<p>Run the following commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo mkdir -p /var/www/.ssh
+sudo chown www-data:www-data /var/www/.ssh
+sudo chmod 700 /var/www/.ssh
+</code></pre></div></div>
+
+<p>Copy generated SSH keys to /var/www/.ssh:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo cp /root/.ssh/id_rsa /var/www/.ssh/id_rsa
+sudo cp /root/.ssh/id_rsa.pub /var/www/.ssh/id_rsa.pub
+</code></pre></div></div>
+
+<p>Set ownership and permissions:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo chown www-data:www-data /var/www/.ssh/id_rsa /var/www/.ssh/id_rsa.pub
+sudo chmod 600 /var/www/.ssh/id_rsa
+sudo chmod 644 /var/www/.ssh/id_rsa.pub
+</code></pre></div></div>
+<h3 id="why-are-we-storing-the-ssh-key-under-varwww">
+  
+  
+    <a href="#why-are-we-storing-the-ssh-key-under-varwww" class="anchor-heading" aria-labelledby="why-are-we-storing-the-ssh-key-under-varwww"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Why are we storing the SSH key under <code><b>/var/www/</b></code>?
+  
+  
+</h3>
+    
+<p>When we perform scanning using API requests, the permissions are executed under the <code><b>www-data</b></code> <strong>user</strong> (not <code><b>root</b></code> or a specific user like <code><b>asif</b></code>). If the key pair is stored under <code><b>/home/asif/.ssh</b></code>, it leads to <strong>permission errors</strong> because the www-data user cannot access that location.</p>
+
+<p>To avoid these errors, we generate and store the SSH keys under <code><b>/var/www/</b></code> and set the correct ownership and permissions for the <code><b>www-data</b></code> user.</p><hr /><hr />
+<h2 id="copy-ssh-public-key-to-target-devices">
+  
+  
+    <a href="#copy-ssh-public-key-to-target-devices" class="anchor-heading" aria-labelledby="copy-ssh-public-key-to-target-devices"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Copy SSH Public Key to Target Devices
+  
+  
+</h2>
+    
+<p>To connect to other devices without password prompts, we must store the public key on those devices.</p>
+<h3 id="for-linuxmac-devices">
+  
+  
+    <a href="#for-linuxmac-devices" class="anchor-heading" aria-labelledby="for-linuxmac-devices"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> For Linux/Mac Devices:
+  
+  
+</h3>
+    
+
+<ul>
+  <li>Open the authorized keys file:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano ~/.ssh/authorized_keys
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>Paste your public key (from <code><b>/var/www/.ssh/id_rsa.pub</b></code>) into the file. 
+Ensure no extra spaces or line breaks are added.</p>
+  </li>
+  <li>
+    <p>Set correct permissions:</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+</code></pre></div></div>
+
+<ul>
+  <li>Ensure SSH server accepts key-based login:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano /etc/ssh/sshd_config
+</code></pre></div></div>
+
+<p>Make sure the following line exists and is not commented out:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PubkeyAuthentication yes
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>Then restart the SSH service:</p>
+  </li>
+  <li>
+    <p>For Linux:</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo systemctl restart ssh
+</code></pre></div></div>
+<ul>
+  <li>For Mac:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo launchctl stop com.openssh.sshd
+sudo launchctl start com.openssh.sshd
+</code></pre></div></div>
+<h3 id="for-windows-devices">
+  
+  
+    <a href="#for-windows-devices" class="anchor-heading" aria-labelledby="for-windows-devices"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> For Windows Devices:
+  
+  
+</h3>
+    
+
+<ul>
+  <li>Ensure SSH Server is installed
+    <ul>
+      <li><a href="/docs/helper/enable-ssh/">Follow this guide</a></li>
+    </ul>
+  </li>
+  <li>Create the authorized keys file using below powershell command:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>New-Item -Path "C:\ProgramData\ssh\administrators_authorized_keys" -ItemType File -Force
+notepad "C:\ProgramData\ssh\administrators_authorized_keys"
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>Paste your public key (from <code><b>/var/www/.ssh/id_rsa.pub</b></code>) into the file and save.</p>
+  </li>
+  <li>
+    <p>Set file permissions by the below powershell commands:</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>icacls "C:\ProgramData\ssh\administrators_authorized_keys" /inheritance:r
+icacls "C:\ProgramData\ssh\administrators_authorized_keys" /grant "Administrators:F"
+icacls "C:\ProgramData\ssh\administrators_authorized_keys" /grant "SYSTEM:F"
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>icacls "C:\ProgramData\ssh" /inheritance:r
+icacls "C:\ProgramData\ssh" /grant "Administrators:F"
+icacls "C:\ProgramData\ssh" /grant "SYSTEM:F"
+</code></pre></div></div>
+
+<ul>
+  <li>Ensure key authentication is enabled:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>notepad C:\ProgramData\ssh\sshd_config
+</code></pre></div></div>
+
+<p>Make sure the line below exists and is uncommented:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PubkeyAuthentication yes
+</code></pre></div></div>
+
+<ul>
+  <li>Restart the SSH service:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Restart-Service sshd
+</code></pre></div></div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2025-06-12">June 12, 2025</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/dummy/docs/installation/providers/enterprise/self-signed-ssl-windows/" class="pagination--pager" title="Install Self-Signed SSL for Faveo on Windows
+">Previous</a>
+    
+    
+      <a href="/dummy/docs/installation/providers/enterprise/ssl-error/" class="pagination--pager" title="Resolve SSL Certificates Error for Faveo Probe Page.
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+          
+
+          
+            
+          
+        </main>
+        
+
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+</body>
+</html>
+

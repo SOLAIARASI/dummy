@@ -1,0 +1,544 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-default.css">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+    .site-nav ul li a {
+      background-image: none;
+    }
+
+  </style>
+
+  
+
+  
+    <script src="/dummy/assets/js/vendor/lunr.min.js"></script>
+  
+
+  <script src="/dummy/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Installing Faveo Helpdesk on cPanel | Faveo Installation Guide</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Installing Faveo Helpdesk on cPanel" />
+<meta name="author" content="Ladybird Web Solution Pvt Ltd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Install Faveo in minutes with our awesome documentation" />
+<meta property="og:description" content="Install Faveo in minutes with our awesome documentation" />
+<link rel="canonical" href="http://localhost:4000/dummy/docs/installation/providers/community/cpanel/" />
+<meta property="og:url" content="http://localhost:4000/dummy/docs/installation/providers/community/cpanel/" />
+<meta property="og:site_name" content="Faveo Installation Guide" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-13T02:57:53-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Installing Faveo Helpdesk on cPanel" />
+<meta name="twitter:site" content="@faveohelpdesk" />
+<meta name="twitter:creator" content="@Ladybird Web Solution Pvt Ltd" />
+<meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ladybird Web Solution Pvt Ltd"},"dateModified":"2020-06-09T00:00:00-04:00","datePublished":"2025-08-13T02:57:53-04:00","description":"Install Faveo in minutes with our awesome documentation","headline":"Installing Faveo Helpdesk on cPanel","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dummy/docs/installation/providers/community/cpanel/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/dummy/assets/images/logo.png"},"name":"Ladybird Web Solution Pvt Ltd"},"url":"http://localhost:4000/dummy/docs/installation/providers/community/cpanel/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <div class="side-bar">
+  <div class="site-header" role="banner">
+    <a href="/dummy/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Faveo Installation Guide"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><a href="/dummy/about/" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/dummy/archive-layout-with-content/" class="nav-list-link">Archive Layout with Content</a></li><li class="nav-list-item"><a href="/dummy/categories/edge-case/" class="nav-list-link">Edge Case</a></li><li class="nav-list-item"><a href="/dummy/installation-scripts/FaveoInstallationScripts/" class="nav-list-link">Faveo Helpdesk Health and Status Check</a></li><li class="nav-list-item"><a href="/dummy/lorem-ipsum/" class="nav-list-link">Lorem Ipsum</a></li><li class="nav-list-item"><a href="/dummy/tags/markup/" class="nav-list-link">Markup</a></li><li class="nav-list-item"><a href="/dummy/page-a/" class="nav-list-link">Page A</a></li><li class="nav-list-item"><a href="/dummy/page-archive/" class="nav-list-link">Page Archive</a></li><li class="nav-list-item"><a href="/dummy/page-b/" class="nav-list-link">Page B</a></li><li class="nav-list-item"><a href="/dummy/404.html" class="nav-list-link">Page Not Found</a></li><li class="nav-list-item"><a href="/dummy/pets/" class="nav-list-link">Pets</a></li><li class="nav-list-item"><a href="/dummy/portfolio/" class="nav-list-link">Portfolio</a></li><li class="nav-list-item"><a href="/dummy/post-archive-feature-rows/" class="nav-list-link">Post Archive with Feature Rows</a></li><li class="nav-list-item"><a href="/dummy/categories/" class="nav-list-link">Posts by Category</a></li><li class="nav-list-item"><a href="/dummy/collection-archive/" class="nav-list-link">Posts by Collection</a></li><li class="nav-list-item"><a href="/dummy/tags/" class="nav-list-link">Posts by Tag</a></li><li class="nav-list-item"><a href="/dummy/year-archive/" class="nav-list-link">Posts by Year</a></li><li class="nav-list-item"><a href="/dummy/recipes/" class="nav-list-link">Recipes</a></li><li class="nav-list-item"><a href="/dummy/sample-page/" class="nav-list-link">Sample Page</a></li><li class="nav-list-item"><a href="/dummy/sitemap/" class="nav-list-link">Sitemap</a></li><li class="nav-list-item"><a href="/dummy/splash-page/" class="nav-list-link">Splash Page</a></li><li class="nav-list-item"><a href="/dummy/terms/" class="nav-list-link">Terms and Privacy Policy</a></li></ul>
+  
+</nav>
+
+
+
+
+  
+  
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  
+</div>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Faveo Installation Guide" aria-label="Search Faveo Installation Guide" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+</div>
+
+    <div class="main-content-wrap">
+      
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">INSTALLATION GUIDE</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-alma">Faveo on Alma Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rocky">Faveo on Rocky Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rhel">Faveo on RHEL</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-ubuntu">Faveo on Ubuntu  (Recommended)</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-debian">Faveo on Debian</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/windows-iis">Windows IIS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/apache-windows">Windows Apache Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/wamp-windows">Faveo on WAMP</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/xampp-windows/">Faveo on XAMPP</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How To's</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-php/">Upgrade PHP Version</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/generic-migration/">Faveo Migrate or Clone</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-backup/">Faveo Automated Backup</a></li>
+          
+            <li><a href="/dummy/docs/helper/cname/">Custom Domain</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/network-discovery">Install Network Discovery</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/ssl-error">SSL Error Solution (Linux)</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/meilisearch">Install Meilisearch</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/memcached">Install Memcached</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/websockets">Enable Websockets</a></li>
+          
+            <li><a href="/dummy/docs/helpers/email-server">Setup Email Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/ldaps">Configure LDAPS</a></li>
+          
+            <li><a href="/dummy/docs/helpers/server-hardening/home">Secure Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/node">Install Node</a></li>
+          
+            <li><a href="/dummy/docs/helpers/nats">Install NATS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script">Troubleshooting script</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kubernetes</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-k8s/">Faveo on Kubernetes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Docker</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-docker/">Faveo on Docker</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Installing Faveo Helpdesk on cPanel">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2025-08-13T02:57:53-04:00">
+    <meta itemprop="dateModified" content="2020-06-09T00:00:00-04:00">
+
+    <div class="page__inner-wrap"><header>
+<h1 id="page-title" class="page__title" itemprop="headline">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Installing Faveo Helpdesk on cPanel
+
+  
+  
+</h1>
+    
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc"><header>
+<h4 class="nav__title">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <i class="fas fa-file-alt"></i> On this page
+  
+  
+</h4>
+    </header>
+              <ul class="toc__menu">
+  <li><a href="#installation-steps">Installation steps</a>
+    <ul>
+      <li><a href="#1-upload-faveo">1. Upload Faveo</a></li>
+      <li><a href="#2-setup-the-database">2. Setup the database</a></li>
+      <li><a href="#3-install-faveo">3. Install Faveo</a></li>
+      <li><a href="#4-configure-cron-job">4. Configure cron job</a></li>
+      <li><a href="#5-final-step">5. Final step</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p><img alt="cPanel" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/CPanel_logo.svg/1280px-CPanel_logo.svg.png" width="120" /></p>
+
+<p>Faveo is a self-hosted software where you can install the software by yourself on your own servers. While the installer provides step by step guide during the installation, it’s important and helpful to have general knowledge about Web servers, PHP and MySQL.</p>
+
+<p>Before getting started make sure your server meets following minimum requirement required to install and use Faveo as listed <a href="/docs/system-requirement/requirement">here</a></p>
+
+<p>Faveo can run on <a href="https://cpanel.net/">cPanel</a>.</p>
+
+<ul>
+  <li><a href="#installation-steps">Installation steps</a>
+    <ul>
+      <li><a href="#1-upload-faveo">1. Upload Faveo</a></li>
+      <li><a href="#2-setup-the-database">2. Setup the database</a></li>
+      <li><a href="#3-gui-faveo-installer">3. Install Faveo</a></li>
+      <li><a href="#4-configure-cron-job">4. Configure cron job</a></li>
+      <li><a href="#final-step">5. Final step</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p><a id="installation-steps" name="installation-steps"></a></p>
+<h2 id="installation-steps">
+  
+  
+    <a href="#installation-steps" class="anchor-heading" aria-labelledby="installation-steps"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Installation steps
+  
+  
+</h2>
+    
+
+<p><a id="1-upload-faveo" name="1-upload-faveo"></a></p>
+<h3 id="1-upload-faveo">
+  
+  
+    <a href="#1-upload-faveo" class="anchor-heading" aria-labelledby="1-upload-faveo"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 1. Upload Faveo
+  
+  
+</h3>
+    
+<p>Please download Faveo Helpdesk from <a href="https://billing.faveohelpdesk.com">https://billing.faveohelpdesk.com</a> and upload the .zip files in the folder of your choice on your server.</p>
+
+<p><img alt="" src="https://lh6.googleusercontent.com/QvogNHnM9veEU-FO2RBah-5BlD0bqhL3Tp_2Td2R2aunRBxwEbbKfCkmbb9DhW9TT9IwkFh8RdDScutANFZ01rHFrx8O5V_EU71NSbDgTjsrGLulJcv5b74Tc_FeoYHlD1TwVbMu" /></p>
+
+<p><img alt="" src="https://lh6.googleusercontent.com/Tix0BlPoyjxHnYHEnNnen6bYjA1MByWDrLa_wvDZn3Kvgy2O564JzXwoNLZG9ZbOazgCSspzx61OwchYdyVBWl1GIE_tPohKfeSWnB4ZIMbbRkAe-QUawpBdmSYFCRryag0-ZZ1C" /></p>
+
+<p>Open cPanel File Manager and navigate to public_html directory/folder, You can directly upload Faveo files here or create a sub directory to host Faveo</p>
+
+<p><img alt="" src="https://lh4.googleusercontent.com/K6s9RwFFuKwf_xJxh27op-I8yZVauLZckirVkeP0UBFbVpz9qIVUO6WM3x5OBKjePGDWo0LZERLK4xDKE5nMu6iccF92c_mmBEk7gDv14-MkM4aiO_Z0JPJCtmLtgpGzsrgtOPai" /></p>
+
+<p>unzip and exctract the content of .zip file</p>
+
+<p><img alt="" src="https://lh3.googleusercontent.com/-G70yy2sOPWNWW8e9mVqA1vSs0xRIrxr9AeWipZtoMtig9403C_JiJNChrfUiTjCRdDf1cTLnVLSYphV5d4HvSDBYMaYI3jkmfgtf0JkuGgdlw3PaaOWTjXGG2YKmQU-NLJkYuis" /></p>
+
+<p>Once the file is extracted within the folder delete the .zip file.</p>
+
+<p><a id="2-setup-the-database" name="2-setup-the-database"></a></p>
+<h3 id="2-setup-the-database">
+  
+  
+    <a href="#2-setup-the-database" class="anchor-heading" aria-labelledby="2-setup-the-database"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 2. Setup the database
+  
+  
+</h3>
+    
+
+<p>Navigate to CPanel &gt; MySQL and Database and click on it.</p>
+
+<p><img alt="" src="https://lh4.googleusercontent.com/aLfs9EGYVnk3m2iPALGwmK_bOqns5mJSD2AQE-LOQDLioZWCBzx_dDsWWE2cuqjfLIspPj52U6QHHJ31AMfS_vkCIkjufhjEb_4LMN1vBYXUR1EJ4BXhyv5hhHsHOOVzEGXN9Lc-" /></p>
+
+<p>Create a New Database on this page</p>
+
+<p><img alt="" src="https://lh5.googleusercontent.com/Wi-ZYJObYIE0LnjSx-tzu113Ze-J6raxZCNLPgK2Kbh5hrkMNjaLb9nhUSzS61ldK697OeBudr_ZcYKYMwIRjRzDgXHhlCqzMrS-OqqoyF5EWHz7uyHSU-W_9XzUjsd65SDlpFmI" /></p>
+
+<p>Create a new user for the database by registering the user name.</p>
+
+<p><img alt="" src="https://lh6.googleusercontent.com/ZAAs160phqKUZReeOoUKoHgoArdebNwxMait4rAn5eFEXn1AsyOU29w2l8igfBHBTcLAjQS7hHCVIbPb6KjQP2dSb7VgCe5Z6HG9PXFyMFTz-6rhjR3EZF6s6XsM7Yu2oGZa8QMg" /></p>
+
+<p>Now link the newly created user with the Database you have created, under Add New User to Database. Select the Database name from the list for which the user needs to be added and select the user name to add with the DB.</p>
+
+<p>In Manage User Privileges, you can give access privileges (Choose All Privileges checkbox) ) to the newly created user and click on the Make Changes button save the details. Click on “Go back” to get the database page.</p>
+
+<p><img alt="" src="https://lh5.googleusercontent.com/IZIPudyrGRC92QQXVAQiIpTozEuJeseyj9r4q-23AvDu_etpKkp3tVzFgatr1D7NPqmVW_q1tPo9Hw_oh4d6lpJo9KhOp60Ba-nH-198LyIKEUxskkl1FjeajVS90vUS9HqUCg6x" /></p>
+
+<p><img alt="" src="https://lh6.googleusercontent.com/HFGhvCd3mWw8LlKhi2R8bQik4ZhL9K6Ui_8-FIxEd5sdDSlUiH3zhiwR_pp7kOBpjAEE4W9phbFu6DzV3B4JfQP3DvWvZsW5lFyRq1rKlM0cAbpLuazcwN7x8cqtoRZjscdXrM6M" /></p>
+
+<p><a id="3-gui-faveo-installer" name="3-gui-faveo-installer"></a></p>
+<h3 id="3-install-faveo">
+  
+  
+    <a href="#3-install-faveo" class="anchor-heading" aria-labelledby="3-install-faveo"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 3. Install Faveo
+  
+  
+</h3>
+    
+
+<p>Now you can install Faveo via <a href="/docs/installation/installer/gui">GUI</a> Wizard or <a href="/docs/installation/installer/cli">CLI</a></p>
+
+<p><a id="4-configure-cron-job" name="4-configure-cron-job"></a></p>
+<h3 id="4-configure-cron-job">
+  
+  
+    <a href="#4-configure-cron-job" class="anchor-heading" aria-labelledby="4-configure-cron-job"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 4. Configure cron job
+  
+  
+</h3>
+    
+
+<p>Faveo requires some background processes to continuously run. 
+Basically those crons are needed to receive emails</p>
+
+<p>Go to CPanel &gt; Crons Jobs &gt; Add New Cron Job to set the cron URL</p>
+
+<p><img alt="" src="https://lh6.googleusercontent.com/SDTOXrj74XAcbuRVAFGhCwqXJ_y7WRG7GzRqy3x7FGMmpzmszahkM7udnnERWLkuCugdqwrNe5UXDWqk443GhIlM9VEV2yhhxk-N-ntJmgpmqIWAp3l1AK13Xpsth3hP1wxr-W8E" /></p>
+
+<p><a id="final-step" name="final-step"></a></p>
+<h3 id="5-final-step">
+  
+  
+    <a href="#5-final-step" class="anchor-heading" aria-labelledby="5-final-step"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> 5. Final step
+  
+  
+</h3>
+    
+
+<p>The final step is to have fun with your newly created instance, which should be up and running to <code class="language-plaintext highlighter-rouge">http://localhost</code> or the domain you have configured Faveo with.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-06-09">June 9, 2020</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/dummy/docs/installation/providers/community/centos-apache" class="pagination--pager" title="Centos Apache
+">Previous</a>
+    
+    
+      <a href="/dummy/docs/installation/providers/community/debian-apache/" class="pagination--pager" title="Installing Faveo Helpdesk Community Edition on Debian With Apache Webserver
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+          
+
+          
+            
+          
+        </main>
+        
+
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+</body>
+</html>
+

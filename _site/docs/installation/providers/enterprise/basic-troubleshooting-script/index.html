@@ -1,0 +1,1780 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-default.css">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+    .site-nav ul li a {
+      background-image: none;
+    }
+
+  </style>
+
+  
+
+  
+    <script src="/dummy/assets/js/vendor/lunr.min.js"></script>
+  
+
+  <script src="/dummy/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Faveo Basic Troubleshooting via Scripts | Faveo Installation Guide</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Faveo Basic Troubleshooting via Scripts" />
+<meta name="author" content="Ladybird Web Solution Pvt Ltd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Install Faveo in minutes with our awesome documentation" />
+<meta property="og:description" content="Install Faveo in minutes with our awesome documentation" />
+<link rel="canonical" href="http://localhost:4000/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script/" />
+<meta property="og:url" content="http://localhost:4000/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script/" />
+<meta property="og:site_name" content="Faveo Installation Guide" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-13T02:57:53-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Faveo Basic Troubleshooting via Scripts" />
+<meta name="twitter:site" content="@faveohelpdesk" />
+<meta name="twitter:creator" content="@Ladybird Web Solution Pvt Ltd" />
+<meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ladybird Web Solution Pvt Ltd"},"dateModified":"2025-06-20T00:00:00-04:00","datePublished":"2025-08-13T02:57:53-04:00","description":"Install Faveo in minutes with our awesome documentation","headline":"Faveo Basic Troubleshooting via Scripts","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/dummy/assets/images/logo.png"},"name":"Ladybird Web Solution Pvt Ltd"},"url":"http://localhost:4000/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <div class="side-bar">
+  <div class="site-header" role="banner">
+    <a href="/dummy/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Faveo Installation Guide"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><a href="/dummy/about/" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/dummy/archive-layout-with-content/" class="nav-list-link">Archive Layout with Content</a></li><li class="nav-list-item"><a href="/dummy/categories/edge-case/" class="nav-list-link">Edge Case</a></li><li class="nav-list-item"><a href="/dummy/installation-scripts/FaveoInstallationScripts/" class="nav-list-link">Faveo Helpdesk Health and Status Check</a></li><li class="nav-list-item"><a href="/dummy/lorem-ipsum/" class="nav-list-link">Lorem Ipsum</a></li><li class="nav-list-item"><a href="/dummy/tags/markup/" class="nav-list-link">Markup</a></li><li class="nav-list-item"><a href="/dummy/page-a/" class="nav-list-link">Page A</a></li><li class="nav-list-item"><a href="/dummy/page-archive/" class="nav-list-link">Page Archive</a></li><li class="nav-list-item"><a href="/dummy/page-b/" class="nav-list-link">Page B</a></li><li class="nav-list-item"><a href="/dummy/404.html" class="nav-list-link">Page Not Found</a></li><li class="nav-list-item"><a href="/dummy/pets/" class="nav-list-link">Pets</a></li><li class="nav-list-item"><a href="/dummy/portfolio/" class="nav-list-link">Portfolio</a></li><li class="nav-list-item"><a href="/dummy/post-archive-feature-rows/" class="nav-list-link">Post Archive with Feature Rows</a></li><li class="nav-list-item"><a href="/dummy/categories/" class="nav-list-link">Posts by Category</a></li><li class="nav-list-item"><a href="/dummy/collection-archive/" class="nav-list-link">Posts by Collection</a></li><li class="nav-list-item"><a href="/dummy/tags/" class="nav-list-link">Posts by Tag</a></li><li class="nav-list-item"><a href="/dummy/year-archive/" class="nav-list-link">Posts by Year</a></li><li class="nav-list-item"><a href="/dummy/recipes/" class="nav-list-link">Recipes</a></li><li class="nav-list-item"><a href="/dummy/sample-page/" class="nav-list-link">Sample Page</a></li><li class="nav-list-item"><a href="/dummy/sitemap/" class="nav-list-link">Sitemap</a></li><li class="nav-list-item"><a href="/dummy/splash-page/" class="nav-list-link">Splash Page</a></li><li class="nav-list-item"><a href="/dummy/terms/" class="nav-list-link">Terms and Privacy Policy</a></li></ul>
+  
+</nav>
+
+
+
+
+  
+  
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  
+</div>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Faveo Installation Guide" aria-label="Search Faveo Installation Guide" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+</div>
+
+    <div class="main-content-wrap">
+      
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">INSTALLATION GUIDE</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-alma">Faveo on Alma Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rocky">Faveo on Rocky Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rhel">Faveo on RHEL</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-ubuntu">Faveo on Ubuntu  (Recommended)</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-debian">Faveo on Debian</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/windows-iis">Windows IIS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/apache-windows">Windows Apache Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/wamp-windows">Faveo on WAMP</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/xampp-windows/">Faveo on XAMPP</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How To's</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-php/">Upgrade PHP Version</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/generic-migration/">Faveo Migrate or Clone</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-backup/">Faveo Automated Backup</a></li>
+          
+            <li><a href="/dummy/docs/helper/cname/">Custom Domain</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/network-discovery">Install Network Discovery</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/ssl-error">SSL Error Solution (Linux)</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/meilisearch">Install Meilisearch</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/memcached">Install Memcached</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/websockets">Enable Websockets</a></li>
+          
+            <li><a href="/dummy/docs/helpers/email-server">Setup Email Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/ldaps">Configure LDAPS</a></li>
+          
+            <li><a href="/dummy/docs/helpers/server-hardening/home">Secure Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/node">Install Node</a></li>
+          
+            <li><a href="/dummy/docs/helpers/nats">Install NATS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script">Troubleshooting script</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kubernetes</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-k8s/">Faveo on Kubernetes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Docker</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-docker/">Faveo on Docker</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Faveo Basic Troubleshooting via Scripts">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="2025-08-13T02:57:53-04:00">
+    <meta itemprop="dateModified" content="2025-06-20T00:00:00-04:00">
+
+    <div class="page__inner-wrap"><header>
+<h1 id="page-title" class="page__title" itemprop="headline">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Faveo Basic Troubleshooting via Scripts
+
+  
+  
+</h1>
+    
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc"><header>
+<h4 class="nav__title">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <i class="fas fa-file-alt"></i> On this page
+  
+  
+</h4>
+    </header>
+              <ul class="toc__menu">
+  <li><a href="#troubleshooting-faveo-helpdesk-via-bash-script-for">Troubleshooting Faveo Helpdesk via Bash Script for:</a></li>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#prerequisites">Prerequisites:</a></li>
+  <li><a href="#how-to-execute-the-script">How to execute the script:</a>
+    <ul>
+      <li><a href="#to-run-all-checks">To Run all checks</a></li>
+      <li><a href="#single-specific-check">Single Specific Check</a>
+        <ul>
+          <li><a href="#ssl-validation-check">SSL Validation Check:</a></li>
+          <li><a href="#system-info-check">System Info Check:</a></li>
+          <li><a href="#service-status-and-version-check">Service status and version check:</a></li>
+          <li><a href="#faveo-info-check">Faveo Info Check</a></li>
+          <li><a href="#cron-jobs-check">Cron Jobs Check</a></li>
+          <li><a href="#supervisor-jobs-check">Supervisor jobs Check</a></li>
+          <li><a href="#logged-in-users-check">Logged in Users check</a></li>
+          <li><a href="#billing-connection">Billing connection</a></li>
+          <li><a href="#root-owned-files-check">Root-Owned Files check</a></li>
+          <li><a href="#required-ports-are-open-check">Required Ports are Open Check</a></li>
+          <li><a href="#firewall-check">Firewall Check</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p><img alt="Troubleshoot" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2rxwH6YebmlMEZtIJSwDUehm2GRIMcwJalQ&amp;s" width="200" /></p>
+<h2 id="troubleshooting-faveo-helpdesk-via-bash-script-for">
+  
+  
+    <a href="#troubleshooting-faveo-helpdesk-via-bash-script-for" class="anchor-heading" aria-labelledby="troubleshooting-faveo-helpdesk-via-bash-script-for"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Troubleshooting Faveo Helpdesk via Bash Script for:
+  
+  
+</h2>
+    
+<ul>
+  <li>Debian-based servers</li>
+  <li>RHEL-based servers</li>
+</ul>
+<h2 id="introduction">
+  
+  
+    <a href="#introduction" class="anchor-heading" aria-labelledby="introduction"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction
+  
+  
+</h2>
+    
+<p>The script is designed to ensure that all essential services and configurations on the Faveo-installed server are functioning correctly. It helps validate system components, identify configuration or connectivity issues, and maintain a stable and healthy Faveo Helpdesk environment and it will log the output to a file named <code><b>faveo-check.log</b></code> in the same directory where the script is present. This file will be rotated every time the script is executed.</p>
+
+<p>This script includes the following diagnostic checks:</p>
+
+<ul>
+  <li>
+    <p><strong>SSL Check:</strong>
+Verifies SSL certificate validity for the domain.</p>
+  </li>
+  <li>
+    <p><strong>System Info:</strong> 
+Displays OS, uptime, memory usage, CPU, and disk statistics.</p>
+  </li>
+  <li>
+    <p><strong>Service Version and Status:</strong>
+Shows version and status of services like Apache, MySQL, PHP, PHP-FPM, Redis, etc.</p>
+  </li>
+  <li>
+    <p><strong>Faveo Info:</strong> 
+Displays Faveo APP_URL, plan, and version.</p>
+  </li>
+  <li>
+    <p><strong>Cron Jobs:</strong> 
+Lists all active cron jobs for www-data and root users.</p>
+  </li>
+  <li>
+    <p><strong>Supervisor Jobs:</strong> 
+Checks the status of Supervisor Jobs.</p>
+  </li>
+  <li>
+    <p><strong>Logged-in Users:</strong> 
+Displays currently logged-in (SSH) system users.</p>
+  </li>
+  <li>
+    <p><strong>Billing Connection:</strong>
+Tests connection to the Faveo billing server.</p>
+  </li>
+  <li>
+    <p><strong>Root-Owned Files in Faveo Directory:</strong> 
+Lists files/folders owned by root that may cause permission issues.</p>
+  </li>
+  <li>
+    <p><strong>Check if Required Ports are Open:</strong> 
+Confirms if ports like 80, 443, 3306 and 6379 are listening.</p>
+  </li>
+  <li>
+    <p><strong>Firewall Check:</strong> 
+Checks status of firewall (e.g., UFW) and its rules.</p>
+  </li>
+</ul><hr />
+<h2 id="prerequisites">
+  
+  
+    <a href="#prerequisites" class="anchor-heading" aria-labelledby="prerequisites"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Prerequisites:
+  
+  
+</h2>
+    
+
+<ul>
+  <li><strong>wget</strong>   tool installed.</li>
+  <li><strong>sudo</strong> or <strong>root</strong> user privilege</li>
+</ul>
+<h2 id="how-to-execute-the-script">
+  
+  
+    <a href="#how-to-execute-the-script" class="anchor-heading" aria-labelledby="how-to-execute-the-script"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> How to execute the script:
+  
+  
+</h2>
+    
+
+<ul>
+  <li>To download the script, <strong><a href="/installation-scripts/FaveoInstallationScripts/basic-troubleshoot.sh">Click here</a></strong> or run the wget command below.
+    <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://raw.githubusercontent.com/faveosuite/faveo-server-images/refs/heads/master/installation-scripts/FaveoInstallationScripts/basic-troubleshoot.sh
+</code></pre></div>    </div>
+  </li>
+  <li>Once the file is downloaded to the faveo server, we have to give the script executable permissions. To do this, run the command below inside the directory where the script is present.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod +x basic-troubleshoot.sh
+</code></pre></div>    </div>
+  </li>
+  <li>To execute the script, run the command below from the directory where the script is present.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo ./basic-troubleshoot.sh
+</code></pre></div>    </div>
+  </li>
+  <li>Once the script is executed, it will prompt for the  faveo root directory, which is necessary for the script to work.</li>
+  <li>It will prompt like below:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value:
+</code></pre></div>    </div>
+  </li>
+  <li>If your Faveo root directory is the default as below, just press Enter:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/var/www/faveo
+</code></pre></div>    </div>
+  </li>
+  <li>Otherwise, enter the correct path manually.</li>
+</ul>
+
+<p>Example:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/var/www/html/faveo
+</code></pre></div></div>
+<ul>
+  <li>Next, select any Option from the Menu. You will be prompted to select one from the following:</li>
+</ul>
+
+<p>Example:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]:
+</code></pre></div></div>
+
+<ul>
+  <li>Option <strong>1</strong> is to check all information at once, select option <strong>1</strong> to see full diagnostic output in sequence.</li>
+  <li>If you want to run a single specific check instead of all, select the relevant option by passing option number <strong>2 to 12</strong> from the menu when prompted.  <a href="###single-specific-check">Click here for more details and steps to fix issues</a></li>
+</ul><hr />
+<h3 id="to-run-all-checks">
+  
+  
+    <a href="#to-run-all-checks" class="anchor-heading" aria-labelledby="to-run-all-checks"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> To Run all checks
+  
+  
+</h3>
+    
+
+<ul>
+  <li>If selected option is <strong>(1) Run all checks</strong>, it will prompt and run as below:</li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 1
+Welcome to Faveo
+Date: Thursday 19 June 2025 11:18:54 AM IST
+--------------------------------------------------
+Faveo APP_URL from .env: faveo.helpdesk.com
+Enter domain for SSL check (leave empty to use APP_URL):
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>The script will automatically read the <code><b>APP_URL</b></code> from the <code><b>.env</b></code> file inside the faveo root directory, passed in the beginning of the script, you can use the <code><b>APP_URL</b></code>  by pressing <code><b>Enter</b></code> or can use a different domain without <code><b>https://</b></code>, for example <code><b>example.faveohelpdesk.com</b></code>.</p>
+  </li>
+  <li>
+    <p>After entering, it will contiue with the script and will show information like <em>SSL validation, System Info, Service Status, Faveo Application Info, Cron Jobs</em> (takes 5–10 sec), <em>Supervisor Jobs, Logged-in Users via SSH, Billing Connection Check, Root-Owned Files/Folders inside the Faveo directory, Port Availability Check</em>. It will prompt for additional ports if needed enter custom ports separated by comma, if not, just press <em>Enter</em>. After entering, it will display <em>Port Availability</em> and <em>Firewall Check</em> like below.</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No domain entered. Using APP_URL domain: faveo.helpdesk.com
+SSL Check for: faveo.helpdesk.com
+SSL is Valid
+
+System Info:
+Distro: Ubuntu 22.04.5 LTS
+Kernel: 6.8.0-60-generic
+Uptime: up 1 hour, 54 minutes
+Load Avg: 1.22 0.92 0.97
+vCPU Cores: 8
+Memory: 8.0Gi used / 15Gi
+Disk: 170G used / 320G (57%)
+
+Service Status:
+apache2: active (Since: Thu 2025-06-19 09:24:44 IST)
+apache2 version: Server version: Apache/2.4.63 (Ubuntu)
+
+httpd version: Server version: Apache/2.4.63 (Ubuntu)
+
+mysql: active (Since: Thu 2025-06-19 09:24:50 IST)
+mysql version: mysql  Ver 8.0.42 for Linux on x86_64 (MySQL Community Server - GPL)
+
+mariadb version: mysql  Ver 8.0.42 for Linux on x86_64 (MySQL Community Server - GPL)
+
+redis: active (Since: Thu 2025-06-19 09:24:43 IST)
+redis version: Redis server v=6.0.16 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=a3fdef44459b3ad6
+
+redis-server: active (Since: Thu 2025-06-19 09:24:43 IST)
+redis-server version: Redis server v=6.0.16 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=a3fdef44459b3ad6
+
+supervisord version: Not found or not applicable
+
+supervisor: active (Since: Thu 2025-06-19 09:24:43 IST)
+supervisor version: Not found or not applicable
+
+php8.2-fpm: active (Since: Thu 2025-06-19 09:24:43 IST)
+php8.2-fpm version:
+
+php version: 8.2.24
+
+cron: active (Since: Thu 2025-06-19 09:24:43 IST)
+cron version: Not found or not applicable
+
+crond version: Not found or not applicable
+
+meilisearch: active (Since: Thu 2025-06-19 09:24:43 IST)
+meilisearch version: meilisearch 1.14.0
+
+nginx version: basic-troubleshoot.sh: line 162: nginx: command not found
+
+node version: v22.16.0
+
+npm version: 10.9.2
+
+csf version:
+
+Faveo Application Info:
+URL: https://faveo.helpdesk.com
+Plan: Faveo Enterprise Pro
+Version: v9.4.1
+
+Cron Jobs:
+Cron jobs for user: www-data
+* * * * * /usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1
+artisan commands found:
+* * * * * /usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1
+Estimating last run time from system logs:
+Jun 19 11:14:01 Faveo CRON[80731]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 11:15:01 Faveo CRON[81560]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 11:16:01 Faveo CRON[82303]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 11:17:01 Faveo CRON[83040]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 11:18:01 Faveo CRON[83801]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 11:19:01 Faveo CRON[84840]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+
+Cron jobs for user: root
+None
+
+Supervisor Jobs:
+faveo-Horizon                    RUNNING   pid 4060, uptime 1:54:24
+
+Logged-in Users:
+2
+
+Billing Connection Check:
+Billing connection is working.
+
+Root-Owned Files/Folders in Faveo Directory:
+No files/folders owned by root found.
+</code></pre></div></div><hr />
+
+<ul>
+  <li>
+    <p>When it comes to <code><b>Port Availability Check</b></code>, it will prompt the user for custom ports, if any. Please enter the port number separated by a comma. The default ports in the script are <code><b>80, 443, 3306, 6379</b></code>.</p>
+  </li>
+  <li>
+    <p>Once entered, it will continue like below:</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Port Availability Check:
+Enter any additional ports to check (comma-separated, or press Enter to skip):
+
+Checking Port 80 (HTTP)
+Port 80 is open internally (listening).
+
+Checking Port 6379 (Redis)
+Port 6379 is open internally (listening).
+
+Checking Port 443 (HTTPS)
+Port 443 is open internally (listening).
+
+Checking Port 3306 (MySQL)
+Port 3306 is open internally (listening).
+
+Firewall Check:
+UFW is installed.
+Status: inactive
+
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</li>
+</ul><hr />
+<h3 id="single-specific-check">
+  
+  
+    <a href="#single-specific-check" class="anchor-heading" aria-labelledby="single-specific-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Single Specific Check
+  
+  
+</h3>
+    
+
+<ul>
+  <li>
+    <p>To run a single specific check instead of all, select the relevant option number from the menu when prompted.</p>
+  </li>
+  <li>
+    <p>You will be prompted to select one of the following, where you can select options from <code><b>2 to 12</b></code>, which will run the corresponding checks:</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]:
+</code></pre></div>    </div>
+  </li>
+</ul><hr />
+<h4 id="ssl-validation-check">
+  
+  
+    <a href="#ssl-validation-check" class="anchor-heading" aria-labelledby="ssl-validation-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> SSL Validation Check:
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>Enter <code><b>2</b></code> to check SSL Validity.</p>
+  </li>
+  <li>
+    <p>This is used to verify if the faveo server’s SSL is valid inside the server.</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 2
+
+Welcome to Faveo
+Date: Thursday 19 June 2025 01:03:37 PM IST
+--------------------------------------------------
+Faveo APP_URL from .env: faveo.helpdesk.com
+Enter domain for SSL check (leave empty to use APP_URL):
+</code></pre></div></div>
+
+<ul>
+  <li>The script will automatically read the <code><b>APP_URL</b></code> from the <code><b>.env</b></code> file inside faveo root directory passed in while the script is executed, you can use the <code><b>APP_URL</b></code> by pressing <code><b>Enter</b></code> or can use a different domain without <code><b>https://</b></code> for example <code><b>example.faveohelpdesk.com</b></code> after this the output will continue like below.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No domain entered. Using APP_URL domain: faveo.helpdesk.com
+SSL Check for: faveo.helpdesk.com
+SSL is Valid
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>To fix, please click here and follow the steps <a href="https://docs.faveohelpdesk.com/docs/installation/providers/enterprise/ssl-error/">Click here</a>. If the issue persists, please reach (<strong>support@faveohelpdesk.com</strong>*)</li>
+</ul><hr />
+<h4 id="system-info-check">
+  
+  
+    <a href="#system-info-check" class="anchor-heading" aria-labelledby="system-info-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> System Info Check:
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>Enter <code><b>3</b></code> to check System Info.</p>
+  </li>
+  <li>
+    <p>It displays information on System OS, uptime, memory, CPU, disk, and Server resource consumption.</p>
+  </li>
+</ul>
+
+<p>Example Output</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 3
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:00:54 PM IST
+--------------------------------------------------
+System Info:
+Distro: Ubuntu 22.04.5 LTS
+Kernel: 6.8.0-60-generic
+Uptime: up 3 hours, 45 minutes
+Load Avg: 0.92 0.72 0.86
+vCPU Cores: 8
+Memory: 9.2Gi used / 15Gi
+Disk: 170G used / 320G (57%)
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>
+    <p>If there is any issue, please reach (<strong>support@faveohelpdesk.com</strong>*)</p>
+  </li>
+</ul><hr />
+<h4 id="service-status-and-version-check">
+  
+  
+    <a href="#service-status-and-version-check" class="anchor-heading" aria-labelledby="service-status-and-version-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Service status and version check:
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>This check will check the status and uptime of services that are necessary for faveo to work.</p>
+  </li>
+  <li>
+    <p>Enter <code><b>4</b></code> to check Service Status and Service Version</p>
+  </li>
+  <li>
+    <p>Shows version and status of services like Apache, MySQL, PHP, PHP-FPM, Redis, etc.</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 4
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:10:54 PM IST
+--------------------------------------------------
+Service Status:
+apache2: active (Since: Thu 2025-06-19 09:24:44 IST)
+apache2 version: Server version: Apache/2.4.63 (Ubuntu)
+
+httpd version: Server version: Apache/2.4.63 (Ubuntu)
+
+mysql: active (Since: Thu 2025-06-19 09:24:50 IST)
+mysql version: mysql  Ver 8.0.42 for Linux on x86_64 (MySQL Community Server - GPL)
+
+mariadb version: mysql  Ver 8.0.42 for Linux on x86_64 (MySQL Community Server - GPL)
+
+redis: active (Since: Thu 2025-06-19 09:24:43 IST)
+redis version: Redis server v=6.0.16 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=a3fdef44459b3ad6
+
+redis-server: active (Since: Thu 2025-06-19 09:24:43 IST)
+redis-server version: Redis server v=6.0.16 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=a3fdef44459b3ad6
+
+supervisord version: Not found or not applicable
+
+supervisor: active (Since: Thu 2025-06-19 09:24:43 IST)
+supervisor version: Not found or not applicable
+
+php8.2-fpm: active (Since: Thu 2025-06-19 09:24:43 IST)
+php8.2-fpm version:
+
+php-fpm version:
+
+cron: active (Since: Thu 2025-06-19 09:24:43 IST)
+cron version: Not found or not applicable
+
+crond version: Not found or not applicable
+
+meilisearch: active (Since: Thu 2025-06-19 09:24:43 IST)
+meilisearch version: meilisearch 1.14.0
+
+nginx version: basic-troubleshoot.sh: line 162: nginx: command not found
+
+node version: v22.16.0
+
+npm version: 10.9.2
+
+csf version:
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>
+    <p>To fix, we can try the following command. If the issue persists, please reach (<strong>support@faveohelpdesk.com</strong>*)</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemctl restart &lt;&lt;&lt;service name here&gt;&gt;&gt;
+</code></pre></div>    </div>
+  </li>
+</ul><hr />
+<h4 id="faveo-info-check">
+  
+  
+    <a href="#faveo-info-check" class="anchor-heading" aria-labelledby="faveo-info-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Faveo Info Check
+  
+  
+</h4>
+    
+<ul>
+  <li>This check is used to check Faveo-related information.</li>
+  <li>Enter <code><b>5</b></code> to check Faveo Info</li>
+</ul>
+
+<p>Displays Faveo APP_URL, plan, and version</p>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 5
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:15:04 PM IST
+--------------------------------------------------
+Faveo Application Info:
+URL: https://example.faveohelpdesk.com
+Plan: Faveo Enterprise Pro
+Version: v1234..
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>This script output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</li>
+</ul><hr />
+<h4 id="cron-jobs-check">
+  
+  
+    <a href="#cron-jobs-check" class="anchor-heading" aria-labelledby="cron-jobs-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Cron Jobs Check
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>This check is used to see cron-related data for faveo-related crons.</p>
+  </li>
+  <li>
+    <p>Enter <code><b>6</b></code> to check Cron Jobs with the last few run time logs (takes 5–10 sec)</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 6
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:14:30 PM IST
+--------------------------------------------------
+Cron Jobs:
+Cron jobs for user: www-data
+* * * * * /usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1
+artisan commands found:
+* * * * * /usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1
+Estimating last run time from system logs:
+Jun 19 13:44:02 Faveo CRON[179717]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 13:45:01 Faveo CRON[180511]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 13:46:01 Faveo CRON[181271]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 13:47:01 Faveo CRON[181997]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 13:48:01 Faveo CRON[182718]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+Jun 19 13:49:01 Faveo CRON[183467]: (www-data) CMD (/usr/bin/php /var/www/faveo/artisan schedule:run 2&gt;&amp;1)
+
+Cron jobs for user: root
+None
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>
+    <p>To fix, try the steps below. If the issue persists, please reach (<strong>support@faveohelpdesk.com</strong>*)</p>
+  </li>
+  <li>
+    <p>If the cron is not there, follow <a href="https://docs.faveohelpdesk.com" target="_blank" rel="noopener"><strong>https://docs.faveohelpdesk.com</strong></a> and select your OS there and follow the cron jobs section in the installation steps.</p>
+  </li>
+</ul><hr />
+<h4 id="supervisor-jobs-check">
+  
+  
+    <a href="#supervisor-jobs-check" class="anchor-heading" aria-labelledby="supervisor-jobs-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Supervisor jobs Check
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>This check is used to see if all supervisor jobs are configured and running as expected for faveo</p>
+  </li>
+  <li>
+    <p>Enter <code><b>7</b></code> to check the Supervisor jobs running status</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 7
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:20:04 PM IST
+--------------------------------------------------
+--------------------------------------------------
+Supervisor Jobs:
+faveo-Horizon                    RUNNING   pid 4060, uptime 4:28:25
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>
+    <p>To fix, we can try the following command. If the issue persists, please reach (<strong>support@faveohelpdesk.com</strong>*) or run the below command.</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>supervisorctl restart all
+</code></pre></div>    </div>
+  </li>
+</ul><hr />
+<h4 id="logged-in-users-check">
+  
+  
+    <a href="#logged-in-users-check" class="anchor-heading" aria-labelledby="logged-in-users-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Logged in Users check
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>This is used to check how many users are currently logged in to the server via SSH</p>
+  </li>
+  <li>
+    <p>Enter <code><b>8</b></code> to check SSH Logged-in Users</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 8
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:22:04 PM IST
+--------------------------------------------------
+Logged-in Users:
+2
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+<ul>
+  <li>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</li>
+</ul><hr />
+<h4 id="billing-connection">
+  
+  
+    <a href="#billing-connection" class="anchor-heading" aria-labelledby="billing-connection"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Billing connection
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>This check will check the curl connection between the faveo server and billing.faveohelpdesk.com, faveo needs this to validate the license and faveo updates, etc..</p>
+  </li>
+  <li>
+    <p>Enter <code><b>9</b></code> to check Faveo Billing Connection</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 9
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:25:08 PM IST
+--------------------------------------------------
+Billing Connection Check:
+Billing connection is working.
+
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>
+    <p>To fix, we can try following the steps. If the issue persists, please reach (<strong>support@faveohelpdesk.com</strong>*)</p>
+  </li>
+  <li>
+    <p>Try whitelisting this domain in your firewall, <code><b>billing.faveohelpdesk.com</b></code>.</p>
+  </li>
+</ul><hr />
+<h4 id="root-owned-files-check">
+  
+  
+    <a href="#root-owned-files-check" class="anchor-heading" aria-labelledby="root-owned-files-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Root-Owned Files check
+  
+  
+</h4>
+    
+<ul>
+  <li>
+    <p>This check will check if any files are owned by root users inside the faveo root directory.</p>
+  </li>
+  <li>
+    <p>Enter <code><b>10</b></code> to check Root-Owned Files in Faveo Directory</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 10
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:30:04 PM IST
+--------------------------------------------------
+Root-Owned Files/Folders in Faveo Directory:
+No files/folders owned by root found.
+
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>This indicates that there are no root owned files found the faveoo root directory.</li>
+</ul>
+
+<p>Example Output  (Root-Owned Files in Faveo Directory (Issue))</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 10
+Welcome to Faveo
+Date: Thursday 19 June 2025 1:31:02 PM IST
+--------------------------------------------------
+Root-Owned Files/Folders in Faveo Directory:
+The following items are owned by root:
+/var/www/faveo/bootstrap
+/var/www/faveo/bootstrap/cache
+/var/www/faveo/bootstrap/cache/.gitignore
+/var/www/faveo/bootstrap/cache/packages.php
+/var/www/faveo/bootstrap/cache/services.php
+/var/www/faveo/bootstrap/app.php
+/var/www/faveo/bootstrap/autoload.php
+/var/www/faveo/storage
+/var/www/faveo/storage/debugbar
+/var/www/faveo/storage/debugbar/.gitignore
+/var/www/faveo/storage/logs
+/var/www/faveo/storage/logs/.gitignore
+/var/www/faveo/storage/framework
+/var/www/faveo/storage/framework/cache
+/var/www/faveo/storage/framework/cache/ec
+/var/www/faveo/storage/framework/cache/ec/ff
+/var/www/faveo/storage/framework/cache/ec/ff/ecffb309874da7e47b1214d6d10704f86a011afd
+/var/www/faveo/storage/framework/cache/3a
+/var/www/faveo/storage/framework/cache/3a/d1
+/var/www/faveo/storage/framework/cache/3a/d1/3ad1fe5763fe6b9bec0a3b5d65d7bc21a47fb6fa
+/var/www/faveo/storage/framework/cache/3b
+/var/www/faveo/storage/framework/cache/3b/0f
+/var/www/faveo/storage/framework/cache/3b/0f/3b0f92f916e4c88725b9dec8b8660187d9db458c
+/var/www/faveo/storage/framework/cache/.gitignore
+/var/www/faveo/storage/framework/cache/c4
+/var/www/faveo/storage/framework/cache/c4/ca
+/var/www/faveo/storage/framework/cache/c4/ca/c4ca0a81abf6e7054b095951a267d4644e82f773
+/var/www/faveo/storage/framework/cache/6c
+/var/www/faveo/storage/framework/cache/6c/c4
+/var/www/faveo/storage/framework/cache/6c/c4/6cc4c5c421b9926ff0e1d615b50acd0354cda171
+/var/www/faveo/storage/framework/cache/e1
+/var/www/faveo/storage/framework/cache/e1/15
+/var/www/faveo/storage/framework/cache/e1/15/e11523c5ff23fc1600aca2d8ee5adb542c5ce4b3
+/var/www/faveo/storage/framework/views
+/var/www/faveo/storage/framework/views/1577e048ef1518d750e5ce1a8465ab0a.php
+/var/www/faveo/storage/framework/views/cbc69d7628b7d63f2c7f45f383a8a2ec.php
+/var/www/faveo/storage/framework/views/9ee12cbe9019ffa581bbee531368b6cb.php
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This indicates that this list of files and directories is incorrectly owned by root.</p>
+  </li>
+  <li>
+    <p>These folders must be owned by the web server user <em>(usually www-data)</em> to allow the application to read and write logs, cache, and perform scheduled tasks etc..</p>
+  </li>
+  <li>
+    <p>To fix, we can try the following command. If the issue persists, please reach (<strong>support@faveohelpdesk.com</strong>*) or run the below command.</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chown -R www-data:www-data &lt;&lt;&lt;Enter the faveo root directory here&gt;&gt;&gt;
+</code></pre></div></div>
+
+<ul>
+  <li>This script output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</li>
+</ul><hr />
+<h4 id="required-ports-are-open-check">
+  
+  
+    <a href="#required-ports-are-open-check" class="anchor-heading" aria-labelledby="required-ports-are-open-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Required Ports are Open Check
+  
+  
+</h4>
+    
+
+<ul>
+  <li>
+    <p>This Check is to check whether the ports are open internally and the services are listening on the port.</p>
+  </li>
+  <li>
+    <p>Enter <code><b>11</b></code> to check if Required Ports are Open for Faveo.</p>
+  </li>
+  <li>
+    <p>The script will automatically check commonly required Faveo ports: 80 (HTTP), 443 (HTTPS), 3306 (MySQL), and 6379 (Redis)</p>
+  </li>
+  <li>
+    <p>To check additional ports or custom ports, enter them as comma-separated values when prompted</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter any additional ports to check (comma-separated, or press Enter to skip):
+</code></pre></div></div>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 11
+Welcome to Siva-LWS
+Date: Thursday 19 June 2025 02:07:19 PM IST
+--------------------------------------------------
+Port Availability Check:
+Enter any additional ports to check (comma-separated, or press Enter to skip):
+</code></pre></div></div>
+
+<ul>
+  <li>When it comes to <code><b>Port Availability Check</b></code>, it will prompt the user for custom ports, if any. Please enter the port number separated by a comma. The default ports in the script are <code><b>80, 443, 3306, 6379</b></code>.</li>
+  <li>Once entered, it will continue like below:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Checking Port 80 (HTTP)
+Port 80 is open internally (listening).
+
+Checking Port 6379 (Redis)
+Port 6379 is open internally (listening).
+
+Checking Port 443 (HTTPS)
+Port 443 is open internally (listening).
+
+Checking Port 3306 (MySQL)
+Port 3306 is open internally (listening).
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>
+    <p>To fix this issue, try opening the port in the firewall if any is enabled. If the issue persists, please reach (<strong>support@faveohelpdesk.com</strong>*)</p>
+  </li>
+</ul><hr />
+<h4 id="firewall-check">
+  
+  
+    <a href="#firewall-check" class="anchor-heading" aria-labelledby="firewall-check"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Firewall Check
+  
+  
+</h4>
+    
+
+<ul>
+  <li>
+    <p>This is used to check the firewall status from basic firewalls to the CSF firewall inside the server.3</p>
+  </li>
+  <li>
+    <p>Enter <code><b>12</b></code> to check Firewall</p>
+  </li>
+</ul>
+
+<p>Example Output:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Faveo:/home/faveo/script# ./basic-troubleshoot.sh
+                                        _______ _______ _     _ _______ _______
+                                       (_______|_______|_)   (_|_______|_______)
+                                        _____   _______ _     _ _____   _     _
+                                       |  ___) |  ___  | |   | |  ___) | |   | |
+                                       | |     | |   | |\ \ / /| |_____| |___| |
+                                       |_|     |_|   |_| \___/ |_______)\_____/
+
+                              _     _ _______ _       ______ ______  _______  ______ _     _
+                             (_)   (_|_______|_)     (_____ (______)(_______)/ _____|_)   | |
+                              _______ _____   _       _____) )     _ _____  ( (____  _____| |
+                             |  ___  |  ___) | |     |  ____/ |   | |  ___)  \____ \|  _   _)
+                             | |   | | |_____| |_____| |    | |__/ /| |_____ _____) ) |  \ \
+                             |_|   |_|_______)_______)_|    |_____/ |_______|______/|_|   \_)
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Enter Faveo root directory path (e.g., /var/www/faveo) /var/www/faveo is the default press enter to use the default value: &lt;&lt;&lt; enter if root directory is different from default&gt;&gt;&gt;
+
+Select an option to run:
+1) Run all checks
+2) SSL Check
+3) System Info
+4) Service Status
+5) Faveo Info
+6) Cron Jobs
+7) Supervisor Jobs
+8) Logged-in Users
+9) Billing Connection
+10) Root-Owned Files in Faveo Directory
+11) Check if Required Ports are Open
+12) Firewall check
+0) Exit
+Enter your choice [0-12]: 12
+Welcome to Faveo
+Date: Thursday 19 June 2025 02:36:24 PM IST
+--------------------------------------------------
+Firewall Check:
+UFW is installed.
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 6568/tcp                   ALLOW IN    Anywhere
+[ 2] 7070/udp                   ALLOW IN    Anywhere
+[ 3] 102.106.35.21 1194/tcp     ALLOW OUT   Anywhere                   (out)
+[ 4] 8080/tcp                   ALLOW IN    Anywhere
+[ 5] 443                        ALLOW IN    102.106.35.21
+[ 6] 443                        ALLOW IN    Anywhere
+[ 7] 22/tcp                     ALLOW IN    Anywhere
+[ 8] 32156/tcp                  ALLOW IN    Anywhere
+[ 9] 6568/tcp (v6)              ALLOW IN    Anywhere (v6)
+[10] 7070/udp (v6)              ALLOW IN    Anywhere (v6)
+[11] 8080/tcp (v6)              ALLOW IN    Anywhere (v6)
+[12] 443 (v6)                   ALLOW IN    Anywhere (v6)
+[13] 22/tcp (v6)                ALLOW IN    Anywhere (v6)
+[14] 32156/tcp (v6)             ALLOW IN    Anywhere (v6)
+
+--------------------------------------------------
+Script by Faveo Helpdesk | support@faveohelpdesk.com
+Execution complete.
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>This script’s output will be logged to <code><b>faveo-check.log</b></code> inside the same directory where the script is present.</p>
+  </li>
+  <li>
+    <p>To fix any issue, please reach (<strong>support@faveohelpdesk.com</strong>*)</p>
+  </li>
+</ul><hr />
+<h1 id="help">
+  
+  
+    <a href="#help" class="anchor-heading" aria-labelledby="help"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Help
+  
+  
+</h1>
+    
+<ul>
+  <li>If any queries or help with the script please reach <strong>support@faveohelpdesk.com</strong></li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2025-06-20">June 20, 2025</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/dummy/docs/installation/providers/enterprise/backup-tool/" class="pagination--pager" title="UrBackup Tool for Faveo File System and Database Backup
+">Previous</a>
+    
+    
+      <a href="/dummy/docs/installation/providers/enterprise/csf-webmin/" class="pagination--pager" title="ConfigServer Security &amp; Firewall  installation on Webmin
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+          
+
+          
+            
+          
+        </main>
+        
+
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+</body>
+</html>
+

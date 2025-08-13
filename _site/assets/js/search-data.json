@@ -1,0 +1,4090 @@
+{"0": {
+    "doc": "Page Not Found",
+    "title": "Page Not Found",
+    "content": "Sorry, but the page you were trying to view does not exist — perhaps you can try searching for it below. ",
+    "url": "/dummy/404.html",
+    
+    "relUrl": "/404.html"
+  },"1": {
+    "doc": "About",
+    "title": "Notable Features",
+    "content": ". | Bundled as a “theme gem” for easier install/upgrading. | Compatible with GitHub Pages. | Support for Jekyll’s built-in Sass/SCSS preprocessor. | Nine different skins (color variations). | Several responsive layout options (single, archive index, search, splash, and paginated home page). | Optimized for search engines with support for Twitter Cards and Open Graph data | Optional header images, custom sidebars, table of contents, galleries, related posts, breadcrumb links, navigation lists, and more. | Commenting support (powered by Disqus, Facebook, Discourse, utterances, static-based via Staticman v1 and v2, and custom). | Google Analytics support. | UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese. | . ",
+    "url": "/dummy/about/#notable-features",
+    
+    "relUrl": "/about/#notable-features"
+  },"2": {
+    "doc": "About",
+    "title": "Demo Pages",
+    "content": "| Name | Description | . | Post with Header Image | A post with a large header image. | . | HTML Tags and Formatting Post | A variety of common markup showing how the theme styles them. | . | Syntax Highlighting Post | Post displaying highlighted code. | . | Post with a Gallery | A post showing several images wrapped in &lt;figure&gt; elements. | . | Sample Collection Page | Single page from a collection. | . | Categories Archive | Posts grouped by category. | . | Tags Archive | Posts grouped by tag. | . For even more demo pages check the posts archive. ",
+    "url": "/dummy/about/#demo-pages",
+    
+    "relUrl": "/about/#demo-pages"
+  },"3": {
+    "doc": "About",
+    "title": "Credits",
+    "content": "Icons + Demo Images: . | The Noun Project – Garrett Knoll, Arthur Shlain, and tracy tam | Font Awesome | Unsplash | . Other: . | Jekyll | jQuery | Susy | Breakpoint | Magnific Popup | FitVids.JS | Greedy Navigation - lukejacksonn | jQuery Smooth Scroll | Lunr | . Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York. ",
+    "url": "/dummy/about/#credits",
+    
+    "relUrl": "/about/#credits"
+  },"4": {
+    "doc": "About",
+    "title": "About",
+    "content": "Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies — styling is purposely minimalistic to be enhanced and customized by you :smile:. Examples of included layouts splash, single, and archive. Install the Theme . ",
+    "url": "/dummy/about/",
+    
+    "relUrl": "/about/"
+  },"5": {
+    "doc": "Archive Layout with Content",
+    "title": "Header one",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/#header-one",
+    
+    "relUrl": "/archive-layout-with-content/#header-one"
+  },"6": {
+    "doc": "Archive Layout with Content",
+    "title": "Header two",
+    "content": "Header three . Header four . Header five . Header six . ",
+    "url": "/dummy/archive-layout-with-content/#header-two",
+    
+    "relUrl": "/archive-layout-with-content/#header-two"
+  },"7": {
+    "doc": "Archive Layout with Content",
+    "title": "Blockquotes",
+    "content": "Single line blockquote: . Stay hungry. Stay foolish. Multi line blockquote with a cite reference: . People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things. Steve Jobs — Apple Worldwide Developers’ Conference, 1997 . ",
+    "url": "/dummy/archive-layout-with-content/#blockquotes",
+    
+    "relUrl": "/archive-layout-with-content/#blockquotes"
+  },"8": {
+    "doc": "Archive Layout with Content",
+    "title": "Tables",
+    "content": "| Employee | Salary |   | . | John Doe | $1 | Because that’s all Steve Jobs needed for a salary. | . | Jane Doe | $100K | For all the blogging she does. | . | Fred Bloggs | $100M | Pictures are worth a thousand words, right? So Jane × 1,000. | . | Jane Bloggs | $100B | With hair like that?! Enough said. | . | Header1 | Header2 | Header3 | . | cell1 | cell2 | cell3 | . | cell4 | cell5 | cell6 | . | cell1 | cell2 | cell3 | . | cell4 | cell5 | cell6 | . | Foot1 | Foot2 | Foot3 | . ",
+    "url": "/dummy/archive-layout-with-content/#tables",
+    
+    "relUrl": "/archive-layout-with-content/#tables"
+  },"9": {
+    "doc": "Archive Layout with Content",
+    "title": "Definition Lists",
+    "content": "Definition List Title Definition list division. Startup A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model. #dowork Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends. Do It Live I’ll let Bill O’Reilly explain this one. ",
+    "url": "/dummy/archive-layout-with-content/#definition-lists",
+    
+    "relUrl": "/archive-layout-with-content/#definition-lists"
+  },"10": {
+    "doc": "Archive Layout with Content",
+    "title": "Unordered Lists (Nested)",
+    "content": ". | List item one . | List item one . | List item one | List item two | List item three | List item four | . | List item two | List item three | List item four | . | List item two | List item three | List item four | . ",
+    "url": "/dummy/archive-layout-with-content/#unordered-lists-nested",
+    
+    "relUrl": "/archive-layout-with-content/#unordered-lists-nested"
+  },"11": {
+    "doc": "Archive Layout with Content",
+    "title": "Ordered List (Nested)",
+    "content": ". | List item one . | List item one . | List item one | List item two | List item three | List item four | . | List item two | List item three | List item four | . | List item two | List item three | List item four | . ",
+    "url": "/dummy/archive-layout-with-content/#ordered-list-nested",
+    
+    "relUrl": "/archive-layout-with-content/#ordered-list-nested"
+  },"12": {
+    "doc": "Archive Layout with Content",
+    "title": "Buttons",
+    "content": "Make any link standout more when applying the .btn class. &lt;a href=\"#\" class=\"btn--success\"&gt;Success Button&lt;/a&gt; . Primary Button Success Button Warning Button Danger Button Info Button Inverse Button Light Outline Button . [Primary Button Text](#link){: .btn} [Success Button Text](#link){: .btn .btn--success} [Warning Button Text](#link){: .btn .btn--warning} [Danger Button Text](#link){: .btn .btn--danger} [Info Button Text](#link){: .btn .btn--info} [Inverse Button](#link){: .btn .btn--inverse} [Light Outline Button](#link){: .btn .btn--light-outline} . X-Large Button Large Button Default Button Small Button . [X-Large Button](#link){: .btn .btn--x-large} [Large Button](#link){: .btn .btn--large} [Default Button](#link){: .btn} [Small Button](#link){: .btn .btn--small} . ",
+    "url": "/dummy/archive-layout-with-content/#buttons",
+    
+    "relUrl": "/archive-layout-with-content/#buttons"
+  },"13": {
+    "doc": "Archive Layout with Content",
+    "title": "Notices",
+    "content": "Watch out! You can also add notices by appending {: .notice} to a paragraph. ",
+    "url": "/dummy/archive-layout-with-content/#notices",
+    
+    "relUrl": "/archive-layout-with-content/#notices"
+  },"14": {
+    "doc": "Archive Layout with Content",
+    "title": "HTML Tags",
+    "content": "Address Tag . 1 Infinite Loop Cupertino, CA 95014 United States Anchor Tag (aka. Link) . This is an example of a link. Abbreviation Tag . The abbreviation CSS stands for “Cascading Style Sheets”. Cite Tag . “Code is poetry.” —Automattic . Code Tag . You will learn later on in these tests that word-wrap: break-word; will be your best friend. Strike Tag . This tag will let you strikeout text. Emphasize Tag . The emphasize tag should italicize text. Insert Tag . This tag should denote inserted text. Keyboard Tag . This scarcely known tag emulates keyboard text, which is usually styled like the &lt;code&gt; tag. Preformatted Tag . This tag styles large blocks of code.post-title { margin: 0 0 5px; font-weight: bold; font-size: 38px; line-height: 1.2; and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows; } . Quote Tag . Developers, developers, developers… –Steve Ballmer . Strong Tag . This tag shows bold text. Subscript Tag . Getting our science styling on with H2O, which should push the “2” down. Superscript Tag . Still sticking with science and Albert Einstein’s E = MC2, which should lift the 2 up. Variable Tag . This allows you to denote variables. ",
+    "url": "/dummy/archive-layout-with-content/#html-tags",
+    
+    "relUrl": "/archive-layout-with-content/#html-tags"
+  },"15": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Page Not Found\n      \n    ",
+    "content": "Page not found. Your pixels are in another canvas. ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"16": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        About\n      \n    ",
+    "content": "Minimal Mistakes is a flexible two-column Jekyll theme. ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"17": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Archive Layout with Content\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"18": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Posts by Category\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"19": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Posts by Collection\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"20": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Edge Case\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"21": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"22": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"23": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"24": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"25": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"26": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"27": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Lorem Ipsum\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"28": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Markup\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"29": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Page A\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"30": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Page Archive\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"31": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Page B\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"32": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Pets\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"33": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Portfolio\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"34": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Post Archive with Feature Rows\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"35": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Recipes\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"36": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Sample Page\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"37": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Sitemap\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"38": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Splash Page\n      \n    ",
+    "content": "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop. ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"39": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Posts by Tag\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"40": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Terms and Privacy Policy\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"41": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Posts by Year\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"42": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"43": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        Faveo Helpdesk Health and Status Check\n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"44": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"45": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"46": {
+    "doc": "Archive Layout with Content",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"47": {
+    "doc": "Archive Layout with Content",
+    "title": "Archive Layout with Content",
+    "content": "A variety of common markup showing how the theme styles them. ",
+    "url": "/dummy/archive-layout-with-content/",
+    
+    "relUrl": "/archive-layout-with-content/"
+  },"48": {
+    "doc": "Posts by Category",
+    "title": "Posts by Category",
+    "content": " ",
+    "url": "/dummy/categories/",
+    
+    "relUrl": "/categories/"
+  },"49": {
+    "doc": "Posts by Collection",
+    "title": "docs",
+    "content": " ",
+    "url": "/dummy/collection-archive/#docs",
+    
+    "relUrl": "/collection-archive/#docs"
+  },"50": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Allow Redis Connection for Faveo Network Discovery\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"51": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Enable File Sysyem and Database Backup in Faveo\n\n      \n    ",
+    "content": "Faveo has an inbuilt backup option which needs to be setup before taking backups. Let’s configure backup for the Faveo by following the below steps. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"52": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"53": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Backup Options Guide\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"54": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"55": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Upgrade PHP Version for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"56": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo on RHEL\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"57": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo on Rocky Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"58": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"59": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Creating Custom Domains for Faveo Cloud\n\n      \n    ",
+    "content": "This document will guide you on how to create a custom domain for your Faveo Cloud instance. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"60": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Setup Email Server for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"61": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Enable Redis in Faveo\n\n      \n    ",
+    "content": "Faveo can also be configured with Redis. This will help improve system performance as emails can be qued. We will go through the steps to configure Redis for... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"62": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Enable SSH on Linux, Mac and Windows Devices\n\n      \n    ",
+    "content": "This document explains how to enable SSH on various operating systems for Faveo Network Discovery, allowing data collection from these devices. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"63": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        LDAPS Self-Signed Certificate Trust Configuration\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"64": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        How to get license code while installing Faveo on your system?\n\n      \n    ",
+    "content": "During Faveo Helpdesk or Faveo Service Desk installation you will be asked for the license code you can follow the below-given steps to get the license code ... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"65": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install NATS Server on Faveo Helpdesk Server\n\n      \n    ",
+    "content": "This document is for clients using the Agent Software. NATS Server needs to be installed on the Faveo Server to ensure the Agents (Assets) data is received/l... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"66": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Configuring SSH Access Controls in Linux Servers\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"67": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Apache Hardening for Security Implications\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"68": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing ClamAV and Setting Up a Cron Job\n\n      \n    ",
+    "content": "This guide provides step-by-step instructions for installing and configuring ConfigServer Security &amp; Firewall (CSF) on a server. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"69": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        ConfigServer Security &amp; Firewall (CSF) Installation and Configuration Guide\n\n      \n    ",
+    "content": "This guide provides step-by-step instructions for installing and configuring ConfigServer Security &amp; Firewall (CSF) on a server. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"70": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Server Hardening Guidelines for Faveo Helpdesk\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"71": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        OS Patching and House Keeping on Linux Servers\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"72": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        How to enable MOD-SECURITY for Apache2\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"73": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Nginx Hardening for Security Implications\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"74": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Node.js and Puppeteer for Faveo’s Graphical Reports\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"75": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        How to secure the server for SSH\n\n      \n    ",
+    "content": "This article describes how to server for SSH access, enable and disable two-factor authentication for SSH on an unmanaged server. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"76": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Disabling Unsecured Ports on a Linux Server with CSF\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"77": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo CLI Installer\n\n      \n    ",
+    "content": "Faveo comes with a CLI installer to help and guide you through the installation process. While the installer provides step by step guide during the installat... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"78": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Web GUI Installer\n\n      \n    ",
+    "content": "Faveo comes with a web-based installer to help and guide you through the installation process. While the installer provides step by step guide during the ins... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"79": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Web GUI Installer\n\n      \n    ",
+    "content": "Faveo comes with a web-based installer to help and guide you through the installation process. While the installer provides step by step guide during the ins... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"80": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Introduction to Agora Invoicing\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"81": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Alma Linux with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"82": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Alma Linux with Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"83": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos Apache\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Community on Cent OS 7 . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"84": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on cPanel\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"85": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Debian With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"86": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Debian With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"87": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on RHEL OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"88": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Rhel OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"89": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Rocky OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"90": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"91": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Ubuntu With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"92": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Ubuntu With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"93": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        How to enable two-factor authentication (2FA) for SSH\n\n      \n    ",
+    "content": "1. Create a normal user account 2. Disable SSH logins for root 3. Install an authenticator app on a mobile device 4. Enable two-factor authenticatio... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"94": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Alma Linux 8\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"95": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Installation on Windows with Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"96": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos Apache Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Cent OS 7 Running Apache Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"97": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos Apache\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, Paid and Enterprise on CentOS 7 with Apache . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"98": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Cent OS 7 Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"99": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos Nginx\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, paid and Enterprise on CentOS 7 with nginx . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"100": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos Redis\n\n      \n    ",
+    "content": "Install and configure Redis, Supervisor and Worker for Faveo on Cent OS 7 . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"101": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Installation on CentOS Web Panel\n\n      \n    ",
+    "content": "This document will list on how to install Faveo Helpdesk on a new Centos Web Panel on Centos server. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"102": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos8s Apache Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on CentOS-8-Stream Running Apache Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"103": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos8s Apache\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, Paid and Enterprise on CentOS-8-Stream . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"104": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos8s Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on CentOS-8-Stream OS 8 Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"105": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos8s Nginx\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, paid and Enterprise on Cent OS 8 Stream . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"106": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Centos8s Redis\n\n      \n    ",
+    "content": "Install and configure Redis, Supervisor and Worker for Faveo on CentOS-8-Stream . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"107": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing DynamoDB for Faveo.\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"108": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Helpdesk K8s\n\n      \n    ",
+    "content": "Deploying Faveo Helpdesk on managed Kubernetes Cluster . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"109": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Network Discovery Tool on Linux Distributions.\n\n      \n    ",
+    "content": "Introduction : . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"110": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Installation on Plesk Panel Windows Server\n\n      \n    ",
+    "content": "This document will guide you on how to install Faveo Helpdesk on a Plesk Panel Windows Server. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"111": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Redis on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"112": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"113": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"114": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Self Signed Ssl Centos\n\n      \n    ",
+    "content": "Install Self-Signed SSL for Faveo on Cent OS . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"115": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"116": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Freelancer, paid and Enterprise on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"117": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        How to install wkhtmltopdf plugin on different servers\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"118": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Alma Linux Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"119": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"120": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Alma Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Alma Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"121": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Alma Linux with Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"122": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"123": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"124": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux 9\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"125": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on RHEL Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"126": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on RHEL OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"127": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Rhel Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on RHEL OS Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"128": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rhel OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"129": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on RHEL OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"130": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": "Introduction This document will guide on how to install Self-Signed SSL certificates on RHEL with nginx. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"131": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"132": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Rocky Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"133": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"134": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Rocky Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Rocky OS Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"135": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"136": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"137": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"138": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"139": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Installation on Windows with Wamp Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"140": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Installation on Windows with Xampp Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"141": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Alma Linux Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"142": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Alma Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Alma Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"143": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"144": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Alma Linux with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"145": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk Alma Linux with Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"146": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Installation on Windows with Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"147": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Automated Backup Script for Faveo File System and Database to the FTP-Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"148": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        UrBackup Tool for Faveo File System and Database Backup\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"149": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Basic Troubleshooting via Scripts\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"150": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        ConfigServer Security &amp; Firewall  installation on Webmin\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"151": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Configuring Database Queue Driver on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"152": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on Debian Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"153": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Debian With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"154": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on Debian Running Nginx Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"155": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Debian With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"156": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"157": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Helpdesk Migration to Docker\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"158": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Helpdesk Docker\n\n      \n    ",
+    "content": "Deploying Faveo Helpdesk on Docker . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"159": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Helpdesk K8s\n\n      \n    ",
+    "content": "Deploying Faveo Helpdesk on managed Kubernetes Cluster . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"160": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Cloning/Migrating Faveo Helpdesk from one server to another\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"161": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on K8s\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"162": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on K8s\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"163": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on K8s\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"164": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Mariadb 10.6 on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"165": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Meilisearch Driver for Faveo.\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"166": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Memcached for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"167": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing MySQL 8.0 on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"168": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Network Discovery Tool on Linux Distributions.\n\n      \n    ",
+    "content": "Introduction : . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"169": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"170": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"171": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Debain\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"172": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"173": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on RHEL Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"174": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on RHEL Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"175": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Rocky Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"176": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"177": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"178": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Paid SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"179": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Upgrade From PHP 7.3.x to PHP 8.1.x\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"180": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Upgrade From PHP 8.1.x to PHP 8.2.x for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"181": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Installation on Ubuntu with Plesk Panel\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"182": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Redis Installation on Ubuntu with Plesk Panel\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"183": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Redis on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"184": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on RHEL Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"185": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Rhel Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on RHEL OS Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"186": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on RHEL OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"187": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on RHEL OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"188": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rhel OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"189": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Rocky Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"190": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Rocky Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Rocky OS Running NGINX Web Server . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"191": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"192": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"193": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"194": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Script Installers\n\n      \n    ",
+    "content": "Faveo Helpesk Installation via Scripts . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"195": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"196": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"197": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"198": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"199": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": "Introduction This document will guide on how to install Self-Signed SSL certificates on RHEL with nginx. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"200": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"201": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"202": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"203": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"204": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"205": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"206": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        SSH Key Authentication Setup Guide\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"207": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Resolve SSL Certificates Error for Faveo Probe Page.\n\n      \n    ",
+    "content": "Introduction : . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"208": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Ubuntu 20.04 and 22.04 Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"209": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Ubuntu With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"210": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Ubuntu 20.04 and 22.04 Running Nginx Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"211": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Ubuntu With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"212": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Ubuntu 20.04 and 22.04\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"213": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Helpdesk Installation on Wamp Server with Apache on PHP 7.3\n\n      \n    ",
+    "content": "Faveo can run on WamServer. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"214": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Webmin Installation on Linux Server\n\n      \n    ",
+    "content": "This document is divided into three sections: Installing Webmin on Linux Server Installing ConfigServer Security &amp; Firewall (CSF) on Webmin Enabli... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"215": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Enabling Websockets in Faveo Helpdesk\n\n      \n    ",
+    "content": "Introduction: . ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"216": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"217": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on Windows Server Running IIS Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"218": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Installing Faveo Helpdesk on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"219": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Faveo Helpdesk System Requirements\n\n      \n    ",
+    "content": "1. PHP Version a. PHP Extensions b. PHP Settings 2. File Permissions a. Linux b. IIS (Windows) 3. Da... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"220": {
+    "doc": "Posts by Collection",
+    "title": "pets",
+    "content": " ",
+    "url": "/dummy/collection-archive/#pets",
+    
+    "relUrl": "/collection-archive/#pets"
+  },"221": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Lhasa Apso\n\n      \n    ",
+    "content": "The Lhasa Apso is a non-sporting dog breed originating in Tibet. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"222": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Tabby\n\n      \n    ",
+    "content": "A tabby is any domestic cat that has a coat featuring distinctive stripes, dots, lines or swirling patterns, usually with a mark resembling an ‘M’ on its for... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"223": {
+    "doc": "Posts by Collection",
+    "title": "portfolio",
+    "content": " ",
+    "url": "/dummy/collection-archive/#portfolio",
+    
+    "relUrl": "/collection-archive/#portfolio"
+  },"224": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Baz Boom Identity\n\n      \n    ",
+    "content": "Baz Boom design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"225": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Fizz Bang Identity\n\n      \n    ",
+    "content": "Fizz Bang design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"226": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Foo Bar Identity\n\n      \n    ",
+    "content": "Foo Bar design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"227": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Ginger Gulp Identity\n\n      \n    ",
+    "content": "Ginger Gulp design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"228": {
+    "doc": "Posts by Collection",
+    "title": "recipes",
+    "content": " ",
+    "url": "/dummy/collection-archive/#recipes",
+    
+    "relUrl": "/collection-archive/#recipes"
+  },"229": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Chocolate Chip Cookies\n\n      \n    ",
+    "content": "A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"230": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Oatmeal Cookies\n\n      \n    ",
+    "content": "Oatmeal cookies are a proverbial favorite with both kids and adults. This crisp and chewy cookie is loaded with oats, dried fruit, and chopped nuts. ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"231": {
+    "doc": "Posts by Collection",
+    "title": "\n      \n        Peanut Butter Cookies\n\n      \n    ",
+    "content": "A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie generally originated in the U... ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"232": {
+    "doc": "Posts by Collection",
+    "title": "Posts by Collection",
+    "content": " ",
+    "url": "/dummy/collection-archive/",
+    
+    "relUrl": "/collection-archive/"
+  },"233": {
+    "doc": "Edge Case",
+    "title": "Edge Case",
+    "content": "Sample post listing for the category Edge Case. ",
+    "url": "/dummy/categories/edge-case/",
+    
+    "relUrl": "/categories/edge-case/"
+  },"234": {
+    "doc": "Lorem Ipsum",
+    "title": "Lorem Ipsum",
+    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec mollis. Quisque convallis libero in sapien pharetra tincidunt. Aliquam elit ante, malesuada id, tempor eu, gravida id, odio. Maecenas suscipit, risus et eleifend imperdiet, nisi orci ullamcorper massa, et adipiscing orci velit quis magna. Praesent sit amet ligula id orci venenatis auctor. Phasellus porttitor, metus non tincidunt dapibus, orci pede pretium neque, sit amet adipiscing ipsum lectus et libero. Aenean bibendum. Curabitur mattis quam id urna. Vivamus dui. Donec nonummy lacinia lorem. Cras risus arcu, sodales ac, ultrices ac, mollis quis, justo. Sed a libero. Quisque risus erat, posuere at, tristique non, lacinia quis, eros. Cras volutpat, lacus quis semper pharetra, nisi enim dignissim est, et sollicitudin quam ipsum vel mi. Sed commodo urna ac urna. Nullam eu tortor. Curabitur sodales scelerisque magna. Donec ultricies tristique pede. Nullam libero. Nam sollicitudin felis vel metus. Nullam posuere molestie metus. Nullam molestie, nunc id suscipit rhoncus, felis mi vulputate lacus, a ultrices tortor dolor eget augue. Aenean ultricies felis ut turpis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse placerat tellus ac nulla. Proin adipiscing sem ac risus. Maecenas nisi. Cras semper. Praesent interdum mollis neque. In egestas nulla eget pede. Integer eu purus sed diam dictum scelerisque. Morbi cursus velit et felis. Maecenas faucibus aliquet erat. In aliquet rhoncus tellus. Integer auctor nibh a nunc fringilla tempus. Cras turpis urna, dignissim vel, suscipit pulvinar, rutrum quis, sem. Ut lobortis convallis dui. Sed nonummy orci a justo. Morbi nec diam eget eros eleifend tincidunt. Curabitur non elit. Pellentesque iaculis, nisl non aliquet adipiscing, purus urna aliquet orci, sed sodales pede neque at massa. Pellentesque laoreet, enim eget varius mollis, sapien erat suscipit metus, sit amet iaculis nulla sapien id felis. Aliquam erat volutpat. Nam congue nulla a ligula. Morbi tempor hendrerit erat. Curabitur augue. Vestibulum nulla est, commodo et, fringilla quis, bibendum eget, ipsum. Suspendisse pulvinar iaculis ante. Mauris dignissim ante quis nisi. Aliquam ante mi, aliquam et, pellentesque ac, dapibus et, enim. In vulputate justo vel magna. Phasellus imperdiet justo. Proin odio orci, dapibus id, porta a, pellentesque id, erat. Aliquam erat volutpat. Mauris nonummy varius libero. Sed dolor ipsum, tempor non, aliquet et, pulvinar quis, dui. Pellentesque mauris diam, lobortis id, varius varius, facilisis at, nulla. Cras pede. Nullam id velit sit amet turpis tincidunt sagittis. Nunc malesuada. Nunc consequat scelerisque odio. Donec eu leo. Nunc pellentesque felis sed odio. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vivamus lobortis metus in lectus. Cras mollis quam eget sapien. Pellentesque non lorem sit amet sem lacinia euismod. Nulla eget diam eget leo imperdiet consequat. Morbi nunc magna, pellentesque eu, porta at, ultricies ut, neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In tincidunt. Praesent ut orci id eros congue ultrices. Mauris non neque. Donec nulla ante, molestie sit amet, fermentum nec, blandit sit amet, purus. Fusce eget diam eu odio iaculis mollis. Phasellus consectetuer pede quis nisi. Proin non sem ut elit pulvinar faucibus. In a turpis nec augue fringilla elementum. Nullam felis. Donec in nulla. Suspendisse sodales, turpis in suscipit ullamcorper, enim nunc sagittis risus, eu auctor velit tortor ut turpis. Mauris id augue at neque aliquam eleifend. Sed eget augue. Nunc faucibus ligula sed massa. Etiam non nulla. Etiam accumsan ullamcorper nisl. In pharetra massa at nunc. Nunc elementum. Duis sodales enim nec libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Praesent dapibus eros sodales urna. Duis magna nisi, lobortis quis, tincidunt rutrum, posuere non, ipsum. Aliquam convallis neque vitae diam. In diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis fermentum arcu in tortor. Sed nibh leo, rhoncus eu, fermentum et, scelerisque ac, massa. Cras id turpis. Etiam commodo sem luctus lorem. Morbi at mi. In rutrum. Aenean luctus pede euismod tortor. Phasellus dictum. Cras neque justo, venenatis sit amet, tristique et, vulputate in, dui. Etiam sed mi gravida sapien imperdiet dictum. Aliquam gravida orci a tortor. Donec tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus risus ante, pellentesque vitae, luctus eget, scelerisque sed, libero. Donec massa. Donec libero mauris, volutpat at, convallis vel, laoreet euismod, augue. In accumsan malesuada risus. Mauris metus magna, condimentum in, nonummy non, ornare eu, velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin posuere. Proin rhoncus rutrum lorem. Phasellus dignissim massa non libero volutpat tincidunt. In hac habitasse platea dictumst. Phasellus eget eros. Nulla in nulla. Vivamus quis mauris. Maecenas pharetra rhoncus tellus. Sed sit amet lacus. Quisque interdum felis a tellus. Aliquam sed diam ac velit aliquam rutrum. Morbi commodo, risus a pulvinar adipiscing, tortor pede posuere risus, ac ornare tellus massa nec lectus. Vivamus mollis metus ac sapien. Nam sed est a libero ullamcorper dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean a erat ac nibh accumsan volutpat. Phasellus pulvinar consequat turpis. Curabitur ante metus, tempus ut, consequat eu, sollicitudin sit amet, justo. Duis ut libero. Հայերեն . Lorem Ipsum-ը տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ է: Սկսած 1500-ականներից` Lorem Ipsum-ը հանդիսացել է տպագրական արդյունաբերության ստանդարտ մոդելային տեքստ, ինչը մի անհայտ տպագրիչի կողմից տարբեր տառատեսակների օրինակների գիրք ստեղծելու ջանքերի արդյունք է: Այս տեքստը ոչ միայն կարողացել է գոյատևել հինգ դարաշրջան, այլև ներառվել է էլեկտրոնային տպագրության մեջ` մնալով էապես անփոփոխ: Այն հայտնի է դարձել 1960-ականներին Lorem Ipsum բովանդակող Letraset էջերի թողարկման արդյունքում, իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, ինչպիսին է Aldus PageMaker-ը, որը ներառում է Lorem Ipsum-ի տարատեսակներ: . Български . Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum. Català . Lorem Ipsum és un text de farciment usat per la indústria de la tipografia i la impremta. Lorem Ipsum ha estat el text estàndard de la indústria des de l’any 1500, quan un impressor desconegut va fer servir una galerada de text i la va mesclar per crear un llibre de mostres tipogràfiques. No només ha sobreviscut cinc segles, sinó que ha fet el salt cap a la creació de tipus de lletra electrònics, romanent essencialment sense canvis. Es va popularitzar l’any 1960 amb el llançament de fulls Letraset que contenien passatges de Lorem Ipsum, i més recentment amb programari d’autoedició com Aldus Pagemaker que inclou versions de Lorem Ipsum. Hrvatski . Lorem Ipsum je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Lorem Ipsum postoji kao industrijski standard još od 16-og stoljeća, kada je nepoznati tiskar uzeo tiskarsku galiju slova i posložio ih da bi napravio knjigu s uzorkom tiska. Taj je tekst ne samo preživio pet stoljeća, već se i vinuo u svijet elektronskog slovoslagarstva, ostajući u suštini nepromijenjen. Postao je popularan tijekom 1960-ih s pojavom Letraset listova s odlomcima Lorem Ipsum-a, a u skorije vrijeme sa software-om za stolno izdavaštvo kao što je Aldus PageMaker koji također sadrži varijante Lorem Ipsum-a. Česky . Lorem Ipsum je demonstrativní výplňový text používaný v tiskařském a knihařském průmyslu. Lorem Ipsum je považováno za standard v této oblasti už od začátku 16. století, kdy dnes neznámý tiskař vzal kusy textu a na jejich základě vytvořil speciální vzorovou knihu. Jeho odkaz nevydržel pouze pět století, on přežil i nástup elektronické sazby v podstatě beze změny. Nejvíce popularizováno bylo Lorem Ipsum v šedesátých letech 20. století, kdy byly vydávány speciální vzorníky s jeho pasážemi a později pak díky počítačovým DTP programům jako Aldus PageMaker. Româna . Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii ’60 odată cu ieşirea colilor Letraset care conţineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum. Српски . Lorem Ipsum је једноставно модел текста који се користи у штампарској и словослагачкој индустрији. Lorem ipsum је био стандард за модел текста још од 1500. године, када је непознати штампар узео кутију са словима и сложио их како би направио узорак књиге. Не само што је овај модел опстао пет векова, него је чак почео да се користи и у електронским медијима, непроменивши се. Популаризован је шездесетих година двадесетог века заједно са листовима летерсета који су садржали Lorem Ipsum пасусе, а данас са софтверским пакетом за прелом као што је Aldus PageMaker који је садржао Lorem Ipsum верзије. ",
+    "url": "/dummy/lorem-ipsum/",
+    
+    "relUrl": "/lorem-ipsum/"
+  },"235": {
+    "doc": "Markup",
+    "title": "Markup",
+    "content": "Sample post listing for the tag markup. ",
+    "url": "/dummy/tags/markup/",
+    
+    "relUrl": "/tags/markup/"
+  },"236": {
+    "doc": "Page A",
+    "title": "Page A",
+    "content": "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. ",
+    "url": "/dummy/page-a/",
+    
+    "relUrl": "/page-a/"
+  },"237": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Page Not Found\n      \n    ",
+    "content": "Page not found. Your pixels are in another canvas. ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"238": {
+    "doc": "Page Archive",
+    "title": "\n      \n        About\n      \n    ",
+    "content": "Minimal Mistakes is a flexible two-column Jekyll theme. ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"239": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Archive Layout with Content\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"240": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Posts by Category\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"241": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Posts by Collection\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"242": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Edge Case\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"243": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"244": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"245": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"246": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"247": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"248": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"249": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Lorem Ipsum\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"250": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Markup\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"251": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Page A\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"252": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Page Archive\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"253": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Page B\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"254": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Pets\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"255": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Portfolio\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"256": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Post Archive with Feature Rows\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"257": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Recipes\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"258": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Sample Page\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"259": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Sitemap\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"260": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Splash Page\n      \n    ",
+    "content": "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop. ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"261": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Posts by Tag\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"262": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Terms and Privacy Policy\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"263": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Posts by Year\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"264": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"265": {
+    "doc": "Page Archive",
+    "title": "\n      \n        Faveo Helpdesk Health and Status Check\n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"266": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"267": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"268": {
+    "doc": "Page Archive",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"269": {
+    "doc": "Page Archive",
+    "title": "Page Archive",
+    "content": " ",
+    "url": "/dummy/page-archive/",
+    
+    "relUrl": "/page-archive/"
+  },"270": {
+    "doc": "Page B",
+    "title": "Page B",
+    "content": "(lorem ipsum) . ",
+    "url": "/dummy/page-b/",
+    
+    "relUrl": "/page-b/"
+  },"271": {
+    "doc": "Pets",
+    "title": "Pets",
+    "content": "Sample document listing for the collection _pets. ",
+    "url": "/dummy/pets/",
+    
+    "relUrl": "/pets/"
+  },"272": {
+    "doc": "Portfolio",
+    "title": "Portfolio",
+    "content": "Sample document listing for the collection _portfolio. ",
+    "url": "/dummy/portfolio/",
+    
+    "relUrl": "/portfolio/"
+  },"273": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "\n      \n        Exclude Post from Search Index\n\n      \n    ",
+    "content": "less than 1 minute read . This post should not appear in the search index because it has the following YAML Front Matter: . ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"274": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "\n      \n        Layout: Header Video\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header with a responsive video, if the theme supports it. ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"275": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "\n      \n        Gemified Theme – Beta Release\n\n      \n    ",
+    "content": "2 minute read . Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme. ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"276": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "\n      \n        Gemified Theme – Alpha Release\n\n      \n    ",
+    "content": "2 minute read . Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it... ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"277": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "\n      \n        Welcome to Jekyll!\n\n      \n    ",
+    "content": "less than 1 minute read . You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa... ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"278": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "Placeholder 1",
+    "content": "This is some sample content that goes here with Markdown formatting. ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"279": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "Placeholder 2",
+    "content": "This is some sample content that goes here with Markdown formatting. Read More . ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"280": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "Placeholder 3",
+    "content": "This is some sample content that goes here with Markdown formatting. ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"281": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "Placeholder Image Left Aligned",
+    "content": "This is some sample content that goes here with Markdown formatting. Left aligned with type=\"left\" . Read More . ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"282": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "Placeholder Image Right Aligned",
+    "content": "This is some sample content that goes here with Markdown formatting. Right aligned with type=\"right\" . Read More . ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"283": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "Placeholder Image Center Aligned",
+    "content": "This is some sample content that goes here with Markdown formatting. Centered with type=\"center\" . Read More . ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"284": {
+    "doc": "Post Archive with Feature Rows",
+    "title": "Post Archive with Feature Rows",
+    "content": " ",
+    "url": "/dummy/post-archive-feature-rows/",
+    
+    "relUrl": "/post-archive-feature-rows/"
+  },"285": {
+    "doc": "Recipes",
+    "title": "Recipes",
+    "content": "Sample document listing for the collection _recipes. ",
+    "url": "/dummy/recipes/",
+    
+    "relUrl": "/recipes/"
+  },"286": {
+    "doc": "Sample Page",
+    "title": "Sample Page",
+    "content": "This is an example page. It’s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this: . Hi there! I’m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi’a coladas. (And gettin’ caught in the rain.) . …or something like this: . The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community. You should probably delete this page and create new pages for your content. Have fun! . ",
+    "url": "/dummy/sample-page/",
+    
+    "relUrl": "/sample-page/"
+  },"287": {
+    "doc": "Sitemap",
+    "title": "Pages",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"288": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Page Not Found\n      \n    ",
+    "content": "Page not found. Your pixels are in another canvas. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"289": {
+    "doc": "Sitemap",
+    "title": "\n      \n        About\n      \n    ",
+    "content": "Minimal Mistakes is a flexible two-column Jekyll theme. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"290": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Archive Layout with Content\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"291": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Posts by Category\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"292": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Posts by Collection\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"293": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Edge Case\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"294": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"295": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"296": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"297": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"298": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"299": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"300": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Lorem Ipsum\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"301": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"302": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Page A\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"303": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Page Archive\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"304": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Page B\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"305": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Pets\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"306": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Portfolio\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"307": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post Archive with Feature Rows\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"308": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Recipes\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"309": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Sample Page\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"310": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Sitemap\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"311": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Splash Page\n      \n    ",
+    "content": "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"312": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Posts by Tag\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"313": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Terms and Privacy Policy\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"314": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Posts by Year\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"315": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"316": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Helpdesk Health and Status Check\n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"317": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"318": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"319": {
+    "doc": "Sitemap",
+    "title": "\n      \n        \n      \n    ",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"320": {
+    "doc": "Sitemap",
+    "title": "Posts",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"321": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Exclude Post from Search Index\n\n      \n    ",
+    "content": "less than 1 minute read . This post should not appear in the search index because it has the following YAML Front Matter: . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"322": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Video\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header with a responsive video, if the theme supports it. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"323": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Gemified Theme – Beta Release\n\n      \n    ",
+    "content": "2 minute read . Hot on the heels of Jekyll v3.3.0 is a beta release of Minimal Mistakes… as a gemified theme. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"324": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Gemified Theme – Alpha Release\n\n      \n    ",
+    "content": "2 minute read . Jekyll themes distributed as Ruby gems are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to “install it... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"325": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Welcome to Jekyll!\n\n      \n    ",
+    "content": "less than 1 minute read . You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"326": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: Syntax Highlighting\n\n      \n    ",
+    "content": "1 minute read . Post displaying the various ways of highlighting code in Markdown. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"327": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: Another Post with Images\n\n      \n    ",
+    "content": "1 minute read . Examples and code for displaying images in posts. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"328": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: HTML Tags and Formatting\n\n      \n    ",
+    "content": "3 minute read . A variety of common markup showing how the theme styles them. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"329": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: Image Alignment\n\n      \n    ",
+    "content": "3 minute read . Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"330": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: Text Alignment\n\n      \n    ",
+    "content": "1 minute read . Default . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"331": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: Title with Special — Characters\n\n      \n    ",
+    "content": "less than 1 minute read . Putting special characters in the title should have no adverse effect on the layout or functionality. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"332": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: Title with Markdown\n\n      \n    ",
+    "content": "less than 1 minute read . Verify that: . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"333": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Markup: Text Readability Test\n\n      \n    ",
+    "content": "3 minute read . A bunch of text to test readability. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"334": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Wide Single Layout Page\n\n      \n    ",
+    "content": "3 minute read . A page with classes: wide set to expand the main content’s width. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"335": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Sidebar with Navigation List\n\n      \n    ",
+    "content": "less than 1 minute read . A post with a sidebar navigation list. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"336": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Sidebar Custom\n\n      \n    ",
+    "content": "less than 1 minute read . A post with custom sidebar content. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"337": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: More Tag\n\n      \n    ",
+    "content": "less than 1 minute read . This content is before the excerpt separator tag. Additional content before the more tag. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"338": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Image Overlay\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header with an overlay image, if the theme supports it. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"339": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Image Overlay with Custom Tagline\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header with an overlay image and custom tagline, if the theme supports it. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"340": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Overlay with Background Fill\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header with a solid background color, if the theme supports it. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"341": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Image (Vertical)\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header image, if the theme supports it. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"342": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Image and Text Readability\n\n      \n    ",
+    "content": "3 minute read . This is a sample post with a large feature image1 up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"343": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Image (Horizontal)\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header image, if the theme supports it. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"344": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Header Image (External URL)\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display a header image, if the theme supports it. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"345": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Author Sidebar Disabled\n\n      \n    ",
+    "content": "less than 1 minute read . A post to test disabling author sidebar. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"346": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Author Override\n\n      \n    ",
+    "content": "less than 1 minute read . A post to test author overrides using a data file. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"347": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Excerpt (Generated)\n\n      \n    ",
+    "content": "less than 1 minute read . This is the post content. Archive-index pages should display an auto-generated excerpt of this content. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"348": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Excerpt (Defined)\n\n      \n    ",
+    "content": "less than 1 minute read . This is a user-defined post excerpt. It should be displayed in place of the post content in archive-index pages. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"349": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Code Excerpt (Generated)\n\n      \n    ",
+    "content": "less than 1 minute read . This is the post content with inline code, (e.g. &lt;span style=\"color: red;\"&gt;red&lt;/span&gt;. It should be displayed in place of the auto-generated exce... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"350": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Post with Sticky Table of Contents\n\n      \n    ",
+    "content": "1 minute read . “Stick” table of contents to the top of a page by adding toc_sticky: true to its YAML Front Matter. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"351": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Post with Table of Contents\n\n      \n    ",
+    "content": "1 minute read . Enable table of contents on post or page by adding toc: true to its YAML Front Matter. The title and icon can also be changed with: . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"352": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Post with Nested Table of Contents\n\n      \n    ",
+    "content": "9 minute read . Tests table of contents with multiple levels to verify indentation is readible. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"353": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Post with Nested Table of Contents via Helper\n\n      \n    ",
+    "content": "11 minute read . Tests table of contents with multiple levels to verify indentation is readible via helper include (deprecated). ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"354": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Reading Time, Comments, Social Sharing Links, and Related Posts Disabled\n\n      \n    ",
+    "content": "This post has reading time, comments, social sharing links, and related posts disabled. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"355": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Social Sharing Links Enabled\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display social sharing links. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"356": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Social Sharing Links Disabled\n\n      \n    ",
+    "content": "less than 1 minute read . This post has social sharing disabled. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"357": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Related Posts Enabled\n\n      \n    ",
+    "content": "less than 1 minute read . This post has related posts enabled. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"358": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Related Posts Disabled\n\n      \n    ",
+    "content": "less than 1 minute read . This post has related posts disabled. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"359": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Read Time Enabled\n\n      \n    ",
+    "content": "3 minute read . This post has reading time enabled. The estimated time that it takes to read this post should show if also enabled in _config.yml with read_time: true. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"360": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Read Time Disabled\n\n      \n    ",
+    "content": "This post has reading time disabled. The estimated time that it takes to read this post should not be showing if read_time: false is set in _config.yml or in... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"361": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Comments Enabled\n\n      \n    ",
+    "content": "less than 1 minute read . This post should display comments if a provider is enabled. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"362": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Layout: Comments Disabled\n\n      \n    ",
+    "content": "less than 1 minute read . This post has its comments disabled. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"363": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Twitter Embed\n\n      \n    ",
+    "content": "less than 1 minute read . 🎨 Finally got around to adding all my @procreateapp creations with time lapse videos https://t.co/1nNbkefC3L pic.twitter.com/gcNLJoJ0Gn&mdash; Michael Rose (... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"364": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Gallery\n\n      \n    ",
+    "content": "1 minute read . These are gallery tests for image wrapped in &lt;figure&gt; elements. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"365": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Image (Caption)\n\n      \n    ",
+    "content": "less than 1 minute read . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"366": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Image (Linked with Caption)\n\n      \n    ",
+    "content": "less than 1 minute read . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"367": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Teaser Image with OpenGraph Override\n\n      \n    ",
+    "content": "less than 1 minute read . This post has a teaser image with an OpenGraph override. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"368": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Image (Standard)\n\n      \n    ",
+    "content": "less than 1 minute read . The preferred way of using images is placing them in the /assets/images/ directory and referencing them with an absolute path. Prepending the filename with {... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"369": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Image (with Link)\n\n      \n    ",
+    "content": "less than 1 minute read . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"370": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Overlay Image with OpenGraph Override\n\n      \n    ",
+    "content": "less than 1 minute read . This post has a header image with an OpenGraph override. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"371": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Header Image with OpenGraph Override\n\n      \n    ",
+    "content": "less than 1 minute read . This post has a header image with an OpenGraph override. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"372": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Video (YouTube)\n\n      \n    ",
+    "content": "less than 1 minute read . YouTube video embed below. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"373": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Link\n Permalink\n      \n    ",
+    "content": "less than 1 minute read . This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"374": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Quote\n\n      \n    ",
+    "content": "less than 1 minute read . Only one thing is impossible for God: To find any sense in any copyright law on the planet. Mark Twain . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"375": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Notice\n\n      \n    ",
+    "content": "1 minute read . A notice displays information that explains nearby content. Often used to call attention to a particular detail. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"376": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Chat\n\n      \n    ",
+    "content": "2 minute read . Abbott: Strange as it may seem, they give ball players nowadays very peculiar names. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"377": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Standard\n\n      \n    ",
+    "content": "4 minute read . All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"378": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Post: Modified Date\n\n      \n    ",
+    "content": "less than 1 minute read . This post has been updated and should show a modified date if used in a layout. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"379": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Suspicio? Bene … tunc ibimus? Quis uh … CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo. Jackson Isai? Tu quoque … A te quidem a ante. Vos scitis quod blinking res Ive ‘been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? Ludum mutavit. Verbum est ex. Et … sunt occid\n\n      \n    ",
+    "content": "less than 1 minute read . Check for long titles and how they might break a template. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"380": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Antidisestablishmentarianism\n\n      \n    ",
+    "content": "less than 1 minute read . Title should not overflow the content area . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"381": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Edge Case: Post with multiline excerpt\n\n      \n    ",
+    "content": "less than 1 minute read . Et ex ullamco duis don’t combine these words quis laborum sunt sint. Nisi et Lorem reprehenderit cupidatat. Aliqua fugiat aliquip officia culpa elit. Adipisi... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"382": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Edge Case No Yaml Title\n\n      \n    ",
+    "content": "less than 1 minute read . This post has no title specified in the YAML Front Matter. Jekyll should auto-generate a title from the filename. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"383": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Edge Case: No Body Content\n\n      \n    ",
+    "content": "less than 1 minute read . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"384": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Edge Case: Many Categories\n\n      \n    ",
+    "content": "less than 1 minute read . This post has many categories. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"385": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Edge Case: Many Tags\n\n      \n    ",
+    "content": "less than 1 minute read . This post has many tags. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"386": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Edge Case: Nested and Mixed Lists\n\n      \n    ",
+    "content": "less than 1 minute read . Nested and mixed lists are an interesting beast. It’s a corner case to make sure that . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"387": {
+    "doc": "Sitemap",
+    "title": "docs",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"388": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Allow Redis Connection for Faveo Network Discovery\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"389": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Enable File Sysyem and Database Backup in Faveo\n\n      \n    ",
+    "content": "Faveo has an inbuilt backup option which needs to be setup before taking backups. Let’s configure backup for the Faveo by following the below steps. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"390": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"391": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Backup Options Guide\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"392": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"393": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Upgrade PHP Version for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"394": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo on RHEL\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"395": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo on Rocky Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"396": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"397": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Creating Custom Domains for Faveo Cloud\n\n      \n    ",
+    "content": "This document will guide you on how to create a custom domain for your Faveo Cloud instance. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"398": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Setup Email Server for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"399": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Enable Redis in Faveo\n\n      \n    ",
+    "content": "Faveo can also be configured with Redis. This will help improve system performance as emails can be qued. We will go through the steps to configure Redis for... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"400": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Enable SSH on Linux, Mac and Windows Devices\n\n      \n    ",
+    "content": "This document explains how to enable SSH on various operating systems for Faveo Network Discovery, allowing data collection from these devices. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"401": {
+    "doc": "Sitemap",
+    "title": "\n      \n        LDAPS Self-Signed Certificate Trust Configuration\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"402": {
+    "doc": "Sitemap",
+    "title": "\n      \n        How to get license code while installing Faveo on your system?\n\n      \n    ",
+    "content": "During Faveo Helpdesk or Faveo Service Desk installation you will be asked for the license code you can follow the below-given steps to get the license code ... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"403": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install NATS Server on Faveo Helpdesk Server\n\n      \n    ",
+    "content": "This document is for clients using the Agent Software. NATS Server needs to be installed on the Faveo Server to ensure the Agents (Assets) data is received/l... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"404": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Configuring SSH Access Controls in Linux Servers\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"405": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Apache Hardening for Security Implications\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"406": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing ClamAV and Setting Up a Cron Job\n\n      \n    ",
+    "content": "This guide provides step-by-step instructions for installing and configuring ConfigServer Security &amp; Firewall (CSF) on a server. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"407": {
+    "doc": "Sitemap",
+    "title": "\n      \n        ConfigServer Security &amp; Firewall (CSF) Installation and Configuration Guide\n\n      \n    ",
+    "content": "This guide provides step-by-step instructions for installing and configuring ConfigServer Security &amp; Firewall (CSF) on a server. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"408": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Server Hardening Guidelines for Faveo Helpdesk\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"409": {
+    "doc": "Sitemap",
+    "title": "\n      \n        OS Patching and House Keeping on Linux Servers\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"410": {
+    "doc": "Sitemap",
+    "title": "\n      \n        How to enable MOD-SECURITY for Apache2\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"411": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Nginx Hardening for Security Implications\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"412": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Node.js and Puppeteer for Faveo’s Graphical Reports\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"413": {
+    "doc": "Sitemap",
+    "title": "\n      \n        How to secure the server for SSH\n\n      \n    ",
+    "content": "This article describes how to server for SSH access, enable and disable two-factor authentication for SSH on an unmanaged server. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"414": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Disabling Unsecured Ports on a Linux Server with CSF\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"415": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo CLI Installer\n\n      \n    ",
+    "content": "Faveo comes with a CLI installer to help and guide you through the installation process. While the installer provides step by step guide during the installat... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"416": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Web GUI Installer\n\n      \n    ",
+    "content": "Faveo comes with a web-based installer to help and guide you through the installation process. While the installer provides step by step guide during the ins... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"417": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Web GUI Installer\n\n      \n    ",
+    "content": "Faveo comes with a web-based installer to help and guide you through the installation process. While the installer provides step by step guide during the ins... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"418": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Introduction to Agora Invoicing\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"419": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Alma Linux with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"420": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Alma Linux with Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"421": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos Apache\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Community on Cent OS 7 . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"422": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on cPanel\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"423": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Debian With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"424": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Debian With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"425": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on RHEL OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"426": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Rhel OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"427": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Rocky OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"428": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"429": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Ubuntu With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"430": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Community Edition on Ubuntu With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"431": {
+    "doc": "Sitemap",
+    "title": "\n      \n        How to enable two-factor authentication (2FA) for SSH\n\n      \n    ",
+    "content": "1. Create a normal user account 2. Disable SSH logins for root 3. Install an authenticator app on a mobile device 4. Enable two-factor authenticatio... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"432": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Alma Linux 8\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"433": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Installation on Windows with Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"434": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos Apache Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Cent OS 7 Running Apache Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"435": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos Apache\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, Paid and Enterprise on CentOS 7 with Apache . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"436": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Cent OS 7 Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"437": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos Nginx\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, paid and Enterprise on CentOS 7 with nginx . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"438": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos Redis\n\n      \n    ",
+    "content": "Install and configure Redis, Supervisor and Worker for Faveo on Cent OS 7 . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"439": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Installation on CentOS Web Panel\n\n      \n    ",
+    "content": "This document will list on how to install Faveo Helpdesk on a new Centos Web Panel on Centos server. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"440": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos8s Apache Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on CentOS-8-Stream Running Apache Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"441": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos8s Apache\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, Paid and Enterprise on CentOS-8-Stream . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"442": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos8s Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on CentOS-8-Stream OS 8 Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"443": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos8s Nginx\n\n      \n    ",
+    "content": "Installing Faveo Helpdesk Freelancer, paid and Enterprise on Cent OS 8 Stream . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"444": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Centos8s Redis\n\n      \n    ",
+    "content": "Install and configure Redis, Supervisor and Worker for Faveo on CentOS-8-Stream . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"445": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing DynamoDB for Faveo.\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"446": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Helpdesk K8s\n\n      \n    ",
+    "content": "Deploying Faveo Helpdesk on managed Kubernetes Cluster . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"447": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Network Discovery Tool on Linux Distributions.\n\n      \n    ",
+    "content": "Introduction : . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"448": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Installation on Plesk Panel Windows Server\n\n      \n    ",
+    "content": "This document will guide you on how to install Faveo Helpdesk on a Plesk Panel Windows Server. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"449": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Redis on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"450": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"451": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"452": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Self Signed Ssl Centos\n\n      \n    ",
+    "content": "Install Self-Signed SSL for Faveo on Cent OS . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"453": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"454": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Freelancer, paid and Enterprise on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"455": {
+    "doc": "Sitemap",
+    "title": "\n      \n        How to install wkhtmltopdf plugin on different servers\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"456": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Alma Linux Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"457": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"458": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Alma Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Alma Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"459": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Alma Linux with Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"460": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"461": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"462": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux 9\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"463": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on RHEL Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"464": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on RHEL OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"465": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Rhel Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on RHEL OS Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"466": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rhel OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"467": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on RHEL OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"468": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": "Introduction This document will guide on how to install Self-Signed SSL certificates on RHEL with nginx. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"469": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"470": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Rocky Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"471": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"472": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Rocky Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Rocky OS Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"473": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"474": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"475": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"476": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"477": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Installation on Windows with Wamp Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"478": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Installation on Windows with Xampp Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"479": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Alma Linux Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"480": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Alma Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Alma Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"481": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"482": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Alma Linux with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"483": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk Alma Linux with Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"484": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Installation on Windows with Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"485": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Automated Backup Script for Faveo File System and Database to the FTP-Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"486": {
+    "doc": "Sitemap",
+    "title": "\n      \n        UrBackup Tool for Faveo File System and Database Backup\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"487": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Basic Troubleshooting via Scripts\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"488": {
+    "doc": "Sitemap",
+    "title": "\n      \n        ConfigServer Security &amp; Firewall  installation on Webmin\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"489": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Configuring Database Queue Driver on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"490": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on Debian Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"491": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Debian With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"492": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on Debian Running Nginx Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"493": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Debian With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"494": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"495": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Helpdesk Migration to Docker\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"496": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Helpdesk Docker\n\n      \n    ",
+    "content": "Deploying Faveo Helpdesk on Docker . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"497": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Helpdesk K8s\n\n      \n    ",
+    "content": "Deploying Faveo Helpdesk on managed Kubernetes Cluster . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"498": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Cloning/Migrating Faveo Helpdesk from one server to another\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"499": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on K8s\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"500": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on K8s\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"501": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on K8s\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"502": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Mariadb 10.6 on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"503": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Meilisearch Driver for Faveo.\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"504": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Memcached for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"505": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing MySQL 8.0 on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"506": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Network Discovery Tool on Linux Distributions.\n\n      \n    ",
+    "content": "Introduction : . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"507": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"508": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"509": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Debain\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"510": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"511": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on RHEL Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"512": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on RHEL Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"513": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Rocky Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"514": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"515": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"516": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Paid SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"517": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Upgrade From PHP 7.3.x to PHP 8.1.x\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"518": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Upgrade From PHP 8.1.x to PHP 8.2.x for Faveo\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"519": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Installation on Ubuntu with Plesk Panel\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"520": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Redis Installation on Ubuntu with Plesk Panel\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"521": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Redis on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"522": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on RHEL Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"523": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Rhel Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on RHEL OS Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"524": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on RHEL OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"525": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on RHEL OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"526": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rhel OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"527": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Rocky Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"528": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Rocky Nginx Ssl\n\n      \n    ",
+    "content": "Install LetsEncrypt SSL for Faveo on Rocky OS Running NGINX Web Server . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"529": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Rocky OS\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"530": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS with Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"531": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Rocky OS With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"532": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Script Installers\n\n      \n    ",
+    "content": "Faveo Helpesk Installation via Scripts . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"533": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"534": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Alma Linux\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"535": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"536": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Debian\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"537": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": "Introduction This document will guide on how to install Self-Signed SSL certificates on RHEL with nginx. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"538": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on RHEL\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"539": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"540": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Rocky\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"541": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"542": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Ubuntu\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"543": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"544": {
+    "doc": "Sitemap",
+    "title": "\n      \n        SSH Key Authentication Setup Guide\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"545": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Resolve SSL Certificates Error for Faveo Probe Page.\n\n      \n    ",
+    "content": "Introduction : . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"546": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Ubuntu 20.04 and 22.04 Running Apache Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"547": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Ubuntu With Apache Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"548": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install LetsEncrypt SSL for Faveo on Ubuntu 20.04 and 22.04 Running Nginx Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"549": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Ubuntu With Nginx Webserver\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"550": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install and configure Redis, Supervisor and Worker for Faveo on Ubuntu 20.04 and 22.04\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"551": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Helpdesk Installation on Wamp Server with Apache on PHP 7.3\n\n      \n    ",
+    "content": "Faveo can run on WamServer. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"552": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Webmin Installation on Linux Server\n\n      \n    ",
+    "content": "This document is divided into three sections: Installing Webmin on Linux Server Installing ConfigServer Security &amp; Firewall (CSF) on Webmin Enabli... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"553": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Enabling Websockets in Faveo Helpdesk\n\n      \n    ",
+    "content": "Introduction: . ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"554": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Self-Signed SSL for Faveo on Windows\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"555": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Install Let’s Encrypt SSL for Faveo on Windows Server Running IIS Web Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"556": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Installing Faveo Helpdesk on Windows Server\n\n      \n    ",
+    "content": ". ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"557": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Faveo Helpdesk System Requirements\n\n      \n    ",
+    "content": "1. PHP Version a. PHP Extensions b. PHP Settings 2. File Permissions a. Linux b. IIS (Windows) 3. Da... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"558": {
+    "doc": "Sitemap",
+    "title": "pets",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"559": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Lhasa Apso\n\n      \n    ",
+    "content": "The Lhasa Apso is a non-sporting dog breed originating in Tibet. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"560": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Tabby\n\n      \n    ",
+    "content": "A tabby is any domestic cat that has a coat featuring distinctive stripes, dots, lines or swirling patterns, usually with a mark resembling an ‘M’ on its for... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"561": {
+    "doc": "Sitemap",
+    "title": "portfolio",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"562": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Baz Boom Identity\n\n      \n    ",
+    "content": "Baz Boom design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"563": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Fizz Bang Identity\n\n      \n    ",
+    "content": "Fizz Bang design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"564": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Foo Bar Identity\n\n      \n    ",
+    "content": "Foo Bar design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"565": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Ginger Gulp Identity\n\n      \n    ",
+    "content": "Ginger Gulp design system including logo mark, website design, and branding applications. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"566": {
+    "doc": "Sitemap",
+    "title": "recipes",
+    "content": " ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"567": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Chocolate Chip Cookies\n\n      \n    ",
+    "content": "A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"568": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Oatmeal Cookies\n\n      \n    ",
+    "content": "Oatmeal cookies are a proverbial favorite with both kids and adults. This crisp and chewy cookie is loaded with oats, dried fruit, and chopped nuts. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"569": {
+    "doc": "Sitemap",
+    "title": "\n      \n        Peanut Butter Cookies\n\n      \n    ",
+    "content": "A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie generally originated in the U... ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"570": {
+    "doc": "Sitemap",
+    "title": "Sitemap",
+    "content": "A list of all the posts and pages found on the site. For you robots out there is an XML version available for digesting as well. ",
+    "url": "/dummy/sitemap/",
+    
+    "relUrl": "/sitemap/"
+  },"571": {
+    "doc": "Splash Page",
+    "title": "Placeholder 1",
+    "content": "This is some sample content that goes here with Markdown formatting. Image courtesy of Unsplash ",
+    "url": "/dummy/splash-page/",
+    
+    "relUrl": "/splash-page/"
+  },"572": {
+    "doc": "Splash Page",
+    "title": "Placeholder 2",
+    "content": "This is some sample content that goes here with Markdown formatting. Read More . ",
+    "url": "/dummy/splash-page/",
+    
+    "relUrl": "/splash-page/"
+  },"573": {
+    "doc": "Splash Page",
+    "title": "Placeholder 3",
+    "content": "This is some sample content that goes here with Markdown formatting. ",
+    "url": "/dummy/splash-page/",
+    
+    "relUrl": "/splash-page/"
+  },"574": {
+    "doc": "Splash Page",
+    "title": "Placeholder Image Left Aligned",
+    "content": "This is some sample content that goes here with Markdown formatting. Left aligned with type=\"left\" . Read More . ",
+    "url": "/dummy/splash-page/",
+    
+    "relUrl": "/splash-page/"
+  },"575": {
+    "doc": "Splash Page",
+    "title": "Placeholder Image Right Aligned",
+    "content": "This is some sample content that goes here with Markdown formatting. Right aligned with type=\"right\" . Read More . ",
+    "url": "/dummy/splash-page/",
+    
+    "relUrl": "/splash-page/"
+  },"576": {
+    "doc": "Splash Page",
+    "title": "Placeholder Image Center Aligned",
+    "content": "This is some sample content that goes here with Markdown formatting. Centered with type=\"center\" . Read More . ",
+    "url": "/dummy/splash-page/",
+    
+    "relUrl": "/splash-page/"
+  },"577": {
+    "doc": "Splash Page",
+    "title": "Splash Page",
+    "content": "Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, proin faucibus voluptate felis id sollicitudin. Centered with type=\"center\" . ",
+    "url": "/dummy/splash-page/",
+    
+    "relUrl": "/splash-page/"
+  },"578": {
+    "doc": "Posts by Tag",
+    "title": "Posts by Tag",
+    "content": " ",
+    "url": "/dummy/tags/",
+    
+    "relUrl": "/tags/"
+  },"579": {
+    "doc": "Terms and Privacy Policy",
+    "title": "Privacy Policy",
+    "content": "The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used. First and foremost, I will never share your email address or any other personal information to anyone without your direct consent. Log Files . Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include: . | Internet Protocol addresses (IP) | Types of browser | Internet Service Provider (ISP) | Date and time stamp | Referring and exit pages | Number of clicks | . All of this information is not linked to anything that is personally identifiable. Cookies and Web Beacons . When you visit this site “convenience” cookies are stored on your computer when you submit a comment to help you log in faster to Disqus the next time you leave a comment. Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out. If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers’ websites. Google Analytics . Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read Google Analytics Privacy Policy. Google Adsense . Google Adsense, a third party affiliate marketing network, uses cookies to help make sure I get a commission when you buy a product after clicking on a link or ad banner that takes you to the site of one of their merchants. You can read Google Adsense Privacy Policy. ",
+    "url": "/dummy/terms/#privacy-policy",
+    
+    "relUrl": "/terms/#privacy-policy"
+  },"580": {
+    "doc": "Terms and Privacy Policy",
+    "title": "Disclosure Policy",
+    "content": "I make money on this website through affiliate programs. If you click an affiliate link or ad banner and buy the product, you help support this website because I’ll get a percentage of that sale. Currently I’m an affiliate for Amazon and Google Adsense. What this means for you: . | I became an affiliate to earn revenue towards the costs of running and maintaining this website. Where I have direct control over which ads are served on this website I offer only products that are directly related to the topic of this website and products that a reader/subscriber would have a genuine interest in or need of. | I do not and will not recommend a product just for the sake of making money. | I do not let the compensation I receive influence the content, topics, posts, or opinions expressed on this website. | I respect and value my readers too much to write anything other than my own genuine and objective opinions and advice. | . Just like this website, my Disclosure Policy is a work in progress. As the revenue streams evolve, so will this page. ",
+    "url": "/dummy/terms/#disclosure-policy",
+    
+    "relUrl": "/terms/#disclosure-policy"
+  },"581": {
+    "doc": "Terms and Privacy Policy",
+    "title": "Terms and Privacy Policy",
+    "content": " ",
+    "url": "/dummy/terms/",
+    
+    "relUrl": "/terms/"
+  },"582": {
+    "doc": "Posts by Year",
+    "title": "Posts by Year",
+    "content": " ",
+    "url": "/dummy/year-archive/",
+    
+    "relUrl": "/year-archive/"
+  },"583": {
+    "doc": "Faveo Helpdesk Health and Status Check",
+    "title": "Faveo Helpdesk Health and Status Check",
+    "content": "# Faveo Helpdesk Health and Status Check Instructions on how to download and execute faveo-health.sh script to check the Health and status of the Faveo Hosted Linux server. Note: This script will work on all major Linux Distros recommended by Faveo. Prerequisites: * sudo or root privilege * wget insatlled on the server Download the faveo-health.sh script using wget ```sh wget https://github.com/ladybirdweb/faveo-server-images/raw/master/installation-scripts/FaveoInstallationScripts/faveo-health.sh ``` Once downloaded, navigate to the folder where the script has been downloaded and execute the below command to provide executable permission to the faveo-health.sh script ```sh sudo chmod +x faveo-health.sh ``` Execute the script as root user or with sudo privilege. ```sh sudo bash faveo-script.sh ``` This script is tested on all major Linux distros recommended by Faveo. ",
+    "url": "/dummy/installation-scripts/FaveoInstallationScripts/",
+    
+    "relUrl": "/installation-scripts/FaveoInstallationScripts/"
+  }
+}

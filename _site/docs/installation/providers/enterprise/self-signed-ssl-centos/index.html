@@ -1,0 +1,686 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-default.css">
+
+  <link rel="stylesheet" href="/dummy/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+    .site-nav ul li a {
+      background-image: none;
+    }
+
+  </style>
+
+  
+
+  
+    <script src="/dummy/assets/js/vendor/lunr.min.js"></script>
+  
+
+  <script src="/dummy/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Self Signed Ssl Centos | Faveo Installation Guide</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Self Signed Ssl Centos" />
+<meta name="author" content="Ladybird Web Solution Pvt Ltd" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Install Self-Signed SSL for Faveo on Cent OS" />
+<meta property="og:description" content="Install Self-Signed SSL for Faveo on Cent OS" />
+<link rel="canonical" href="http://localhost:4000/dummy/docs/installation/providers/enterprise/self-signed-ssl-centos/" />
+<meta property="og:url" content="http://localhost:4000/dummy/docs/installation/providers/enterprise/self-signed-ssl-centos/" />
+<meta property="og:site_name" content="Faveo Installation Guide" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-13T02:57:53-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Self Signed Ssl Centos" />
+<meta name="twitter:site" content="@faveohelpdesk" />
+<meta name="twitter:creator" content="@Ladybird Web Solution Pvt Ltd" />
+<meta name="google-site-verification" content="UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Ladybird Web Solution Pvt Ltd"},"dateModified":"2020-06-09T00:00:00-04:00","datePublished":"2025-08-13T02:57:53-04:00","description":"Install Self-Signed SSL for Faveo on Cent OS","headline":"Self Signed Ssl Centos","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dummy/docs/installation/providers/enterprise/self-signed-ssl-centos/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/dummy/assets/images/logo.png"},"name":"Ladybird Web Solution Pvt Ltd"},"url":"http://localhost:4000/dummy/docs/installation/providers/enterprise/self-signed-ssl-centos/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <div class="side-bar">
+  <div class="site-header" role="banner">
+    <a href="/dummy/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Faveo Installation Guide"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><a href="/dummy/about/" class="nav-list-link">About</a></li><li class="nav-list-item"><a href="/dummy/archive-layout-with-content/" class="nav-list-link">Archive Layout with Content</a></li><li class="nav-list-item"><a href="/dummy/categories/edge-case/" class="nav-list-link">Edge Case</a></li><li class="nav-list-item"><a href="/dummy/installation-scripts/FaveoInstallationScripts/" class="nav-list-link">Faveo Helpdesk Health and Status Check</a></li><li class="nav-list-item"><a href="/dummy/lorem-ipsum/" class="nav-list-link">Lorem Ipsum</a></li><li class="nav-list-item"><a href="/dummy/tags/markup/" class="nav-list-link">Markup</a></li><li class="nav-list-item"><a href="/dummy/page-a/" class="nav-list-link">Page A</a></li><li class="nav-list-item"><a href="/dummy/page-archive/" class="nav-list-link">Page Archive</a></li><li class="nav-list-item"><a href="/dummy/page-b/" class="nav-list-link">Page B</a></li><li class="nav-list-item"><a href="/dummy/404.html" class="nav-list-link">Page Not Found</a></li><li class="nav-list-item"><a href="/dummy/pets/" class="nav-list-link">Pets</a></li><li class="nav-list-item"><a href="/dummy/portfolio/" class="nav-list-link">Portfolio</a></li><li class="nav-list-item"><a href="/dummy/post-archive-feature-rows/" class="nav-list-link">Post Archive with Feature Rows</a></li><li class="nav-list-item"><a href="/dummy/categories/" class="nav-list-link">Posts by Category</a></li><li class="nav-list-item"><a href="/dummy/collection-archive/" class="nav-list-link">Posts by Collection</a></li><li class="nav-list-item"><a href="/dummy/tags/" class="nav-list-link">Posts by Tag</a></li><li class="nav-list-item"><a href="/dummy/year-archive/" class="nav-list-link">Posts by Year</a></li><li class="nav-list-item"><a href="/dummy/recipes/" class="nav-list-link">Recipes</a></li><li class="nav-list-item"><a href="/dummy/sample-page/" class="nav-list-link">Sample Page</a></li><li class="nav-list-item"><a href="/dummy/sitemap/" class="nav-list-link">Sitemap</a></li><li class="nav-list-item"><a href="/dummy/splash-page/" class="nav-list-link">Splash Page</a></li><li class="nav-list-item"><a href="/dummy/terms/" class="nav-list-link">Terms and Privacy Policy</a></li></ul>
+  
+</nav>
+
+
+
+
+  
+  
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  
+</div>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Faveo Installation Guide" aria-label="Search Faveo Installation Guide" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+</div>
+
+    <div class="main-content-wrap">
+      
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">INSTALLATION GUIDE</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-alma">Faveo on Alma Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rocky">Faveo on Rocky Linux</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-rhel">Faveo on RHEL</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-ubuntu">Faveo on Ubuntu  (Recommended)</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-debian">Faveo on Debian</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/windows-iis">Windows IIS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/apache-windows">Windows Apache Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/wamp-windows">Faveo on WAMP</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/xampp-windows/">Faveo on XAMPP</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">How To's</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/helpers/choose-php/">Upgrade PHP Version</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/generic-migration/">Faveo Migrate or Clone</a></li>
+          
+            <li><a href="/dummy/docs/helpers/choose-backup/">Faveo Automated Backup</a></li>
+          
+            <li><a href="/dummy/docs/helper/cname/">Custom Domain</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/network-discovery">Install Network Discovery</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/ssl-error">SSL Error Solution (Linux)</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/meilisearch">Install Meilisearch</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/memcached">Install Memcached</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/websockets">Enable Websockets</a></li>
+          
+            <li><a href="/dummy/docs/helpers/email-server">Setup Email Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/ldaps">Configure LDAPS</a></li>
+          
+            <li><a href="/dummy/docs/helpers/server-hardening/home">Secure Server</a></li>
+          
+            <li><a href="/dummy/docs/helpers/node">Install Node</a></li>
+          
+            <li><a href="/dummy/docs/helpers/nats">Install NATS Server</a></li>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/basic-troubleshooting-script">Troubleshooting script</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kubernetes</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-k8s/">Faveo on Kubernetes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Docker</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/dummy/docs/installation/providers/enterprise/faveo-helpdesk-docker/">Faveo on Docker</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Self Signed Ssl Centos">
+    <meta itemprop="description" content="Install Self-Signed SSL for Faveo on Cent OS ">
+    <meta itemprop="datePublished" content="2025-08-13T02:57:53-04:00">
+    <meta itemprop="dateModified" content="2020-06-09T00:00:00-04:00">
+
+    <div class="page__inner-wrap"><header>
+<h1 id="page-title" class="page__title" itemprop="headline">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Self Signed Ssl Centos
+
+  
+  
+</h1>
+    
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc"><header>
+<h4 class="nav__title">
+  
+  
+    <a href="#page-title" class="anchor-heading" aria-labelledby="page-title"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <i class="fas fa-file-alt"></i> On this page
+  
+  
+</h4>
+    </header>
+              <ul class="toc__menu">
+  <li><a href="#install-self-signed-ssl-for-faveo-on-cent-os-">Install Self-Signed SSL for Faveo on Cent OS </a>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#setting-up-the-ssl-certificate">Setting up the SSL certificate</a></li>
+      <li><a href="#steps">Steps</a>
+        <ul>
+          <li><a href="#generate-a-private-key-for-the-ca">Generate a private key for the CA</a></li>
+          <li><a href="#generate-a-certificate-signing-request-for-the-ca">Generate a certificate signing request for the CA</a></li>
+          <li><a href="#generate-a-root-certificate">Generate a root certificate</a></li>
+          <li><a href="#create-a-private-key-for-the-certificate">Create a private key for the certificate</a></li>
+          <li><a href="#create-a-certificate-signing-request-for-the-server-ssl">Create a certificate signing request for the server SSL</a></li>
+          <li><a href="#create-a-certificate-and-sign-it-with-the-ca-private-key">Create a certificate and sign it with the CA private key</a></li>
+        </ul>
+      </li>
+      <li><a href="#setting-up-the-virtual-host-file-for-the-self-signed-ssl-certificates">Setting up the Virtual host file for the Self signed SSL certificate’s.</a></li>
+      <li><a href="#after-creating-the-virtual-host-file-we-need-to-add-the-local-host-for-the-domain">After Creating the Virtual Host file we need to add the local host for the domain.</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+<h1 id="install-self-signed-ssl-for-faveo-on-cent-os-">
+  
+  
+    <a href="#install-self-signed-ssl-for-faveo-on-cent-os-" class="anchor-heading" aria-labelledby="install-self-signed-ssl-for-faveo-on-cent-os-"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Install Self-Signed SSL for Faveo on Cent OS <!-- omit in toc -->
+  
+  
+</h1>
+    
+
+<p><img alt="Cent OS Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/300px-Centos-logo-light.svg.png" width="200" /></p>
+<h2 id="introduction">
+  
+  
+    <a href="#introduction" class="anchor-heading" aria-labelledby="introduction"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction
+  
+  
+</h2>
+    
+<p>This document will guide on how to install Self-Signed SSL certificates on CentOS with apache.</p>
+<h2 id="setting-up-the-ssl-certificate">
+  
+  
+    <a href="#setting-up-the-ssl-certificate" class="anchor-heading" aria-labelledby="setting-up-the-ssl-certificate"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Setting up the SSL certificate
+  
+  
+</h2>
+    
+<p>To Install Self Signed SSL certificates in Centos, We need to create SSL Cetificates which is signed by the CA certificate, after that we need to add the Virtual host file for the SSL certificate and edit the php.ini file and the hosts file the steps are explained below.</p>
+<h2 id="steps">
+  
+  
+    <a href="#steps" class="anchor-heading" aria-labelledby="steps"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Steps</strong>
+  
+  
+</h2>
+    
+
+<ul>
+  <li>Generate a private key for the CA (Certificate Authority).</li>
+  <li>Generate a certificate signing request for the CA.</li>
+  <li>Generate a root certificate.</li>
+  <li>Create a private key for the certificate.</li>
+  <li>Create a certificate signing request.</li>
+  <li>Create a certificate and sign it with the CA private key.</li>
+  <li>Installing the SSL certificate.</li>
+</ul>
+<h3 id="generate-a-private-key-for-the-ca">
+  
+  
+    <a href="#generate-a-private-key-for-the-ca" class="anchor-heading" aria-labelledby="generate-a-private-key-for-the-ca"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Generate a private key for the CA</strong>
+  
+  
+</h3>
+    
+
+<p>Create a directory named SSL in the home or on any directory, the following commands will create the SSL files those files will be saved in the directory which we create.</p>
+<ul>
+  <li>From the SSL folder that was created run the below commands.</li>
+  <li>Run the below command to create a Private key for the rootCA this command will save a file name faveoroot.key in the SSL folder.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl ecparam -out faveoroot.key -name prime256v1 -genkey
+</code></pre></div></div>
+<h3 id="generate-a-certificate-signing-request-for-the-ca">
+  
+  
+    <a href="#generate-a-certificate-signing-request-for-the-ca" class="anchor-heading" aria-labelledby="generate-a-certificate-signing-request-for-the-ca"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Generate a certificate signing request for the CA</strong>
+  
+  
+</h3>
+    
+
+<ul>
+  <li>Run the below command which will create a CSR (certificate signing request) for the Root CA.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl req -new -sha256 -key faveoroot.key -out faveoroot.csr
+</code></pre></div></div>
+<ul>
+  <li>
+    <p>The above command will ask for the below information if needed you can provide them or you can just hit enter and skip them but it is recommended to give the meaningful details.</p>
+
+    <ul>
+      <li>Country Name.</li>
+      <li>State Name.</li>
+      <li>Organization.</li>
+      <li>Comman name (Leave this as blank or provide the company domain not the faveo domain)</li>
+      <li>Email address.</li>
+    </ul>
+  </li>
+  <li>
+    <p>The above command will save a file in the name faveoroot.csr in the SSL directory.</p>
+  </li>
+</ul>
+<h3 id="generate-a-root-certificate">
+  
+  
+    <a href="#generate-a-root-certificate" class="anchor-heading" aria-labelledby="generate-a-root-certificate"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Generate a root certificate</strong>
+  
+  
+</h3>
+    
+
+<ul>
+  <li>The below ccommand will create the Root CA certificate which we will use to sign the SSL certificates.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl x509 -req -sha256 -days 3650 -in faveoroot.csr -signkey faveoroot.key -out faveorootCA.crt
+</code></pre></div></div>
+
+<ul>
+  <li>The above command will create a file and save it as faveorootCA.crt in the SSL directory.</li>
+</ul>
+<h3 id="create-a-private-key-for-the-certificate">
+  
+  
+    <a href="#create-a-private-key-for-the-certificate" class="anchor-heading" aria-labelledby="create-a-private-key-for-the-certificate"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Create a private key for the certificate</strong>
+  
+  
+</h3>
+    
+
+<ul>
+  <li>The below command will create a private key file for the server SSL certificate.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl ecparam -out private.key -name prime256v1 -genkey
+</code></pre></div></div>
+
+<ul>
+  <li>The above command will save a key file with the name private.key for the server SSL certificate.</li>
+</ul>
+<h3 id="create-a-certificate-signing-request-for-the-server-ssl">
+  
+  
+    <a href="#create-a-certificate-signing-request-for-the-server-ssl" class="anchor-heading" aria-labelledby="create-a-certificate-signing-request-for-the-server-ssl"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Create a certificate signing request for the server SSL</strong>
+  
+  
+</h3>
+    
+
+<ul>
+  <li>The below command will create a Certificate Signing Request for the Server webpage SSL.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl req -new -sha256 -key private.key -out faveolocal.csr
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>It will ask for the details as below we should give the details as shown below.</p>
+
+    <ul>
+      <li>Country Name.</li>
+      <li>State Name.</li>
+      <li>Organization.</li>
+      <li>Common name (Here please provide the Domain or the IP through which you need to access faveo)).</li>
+      <li>Email address.</li>
+    </ul>
+  </li>
+  <li>
+    <p>The rest can be left blank and after this is completed it will create the CSR file and save it with the name faveolocal.csr in the SSL directory.</p>
+  </li>
+</ul>
+<h3 id="create-a-certificate-and-sign-it-with-the-ca-private-key">
+  
+  
+    <a href="#create-a-certificate-and-sign-it-with-the-ca-private-key" class="anchor-heading" aria-labelledby="create-a-certificate-and-sign-it-with-the-ca-private-key"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> <strong>Create a certificate and sign it with the CA private key</strong>
+  
+  
+</h3>
+    
+
+<ul>
+  <li>The below command will create the server SSL certificate which is signed by the Root CA that we created above.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openssl x509 -req -in faveolocal.csr -CA  faveorootCA.crt -CAkey faveoroot.key -CAcreateserial -out faveolocal.crt -days 3650 -sha256 
+</code></pre></div></div>
+<ul>
+  <li>The above command will create a server SSL file and save it in the name faveolocal.crt, this certificate will be valid for 3650 days that is ten years.</li>
+</ul>
+<h2 id="setting-up-the-virtual-host-file-for-the-self-signed-ssl-certificates">
+  
+  
+    <a href="#setting-up-the-virtual-host-file-for-the-self-signed-ssl-certificates" class="anchor-heading" aria-labelledby="setting-up-the-virtual-host-file-for-the-self-signed-ssl-certificates"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Setting up the Virtual host file for the Self signed SSL certificate’s.
+  
+  
+</h2>
+    
+
+<ul>
+  <li>We need to enable some Modules for the ssl as below :
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install mod_ssl
+systemctl restart httpd
+</code></pre></div>    </div>
+  </li>
+  <li>The above will install mod_ssl module and restart apache.</li>
+  <li>Before creating the Virtual host file for SSL we need to copy the created SSL certificate’s and Key file to the corresponding directory with below command, these commands should be runned from the SSL Directory.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cp faveolocal.crt /etc/pki/tls/certs
+cp private.key /etc/pki/tls/private
+cp faveorootCA.crt /etc/pki/ca-trust/source/anchors/
+</code></pre></div>    </div>
+  </li>
+  <li>Then adding the Virtual host file, for that we need to create a file in webserver directory as <b> /etc/httpd/conf.g/faveo-ssl.conf.</b></li>
+  <li>Then need to copy the below configuration inside the faveo-ssl.conf file.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;IfModule mod_ssl.c&gt;
+        &lt;VirtualHost *:443&gt;
+                ServerAdmin ---DomainName or IP---
+
+                DocumentRoot /var/www/faveo/public
+
+                ErrorLog ${APACHE_LOG_DIR}/error.log
+                CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+                SSLEngine on
+
+                SSLCertificateFile      /etc/pki/tls/certs/faveolocal.crt
+                SSLCertificateKeyFile /etc/pki/tls/private/private.key
+
+                &lt;FilesMatch "\.(cgi|shtml|phtml|php)$"&gt;
+                                SSLOptions +StdEnvVars
+                &lt;/FilesMatch&gt;
+                &lt;Directory /usr/lib/cgi-bin&gt;
+                                SSLOptions +StdEnvVars
+                &lt;/Directory&gt;
+
+        &lt;/VirtualHost&gt;
+&lt;/IfModule&gt;
+</code></pre></div></div>
+<h2 id="after-creating-the-virtual-host-file-we-need-to-add-the-local-host-for-the-domain">
+  
+  
+    <a href="#after-creating-the-virtual-host-file-we-need-to-add-the-local-host-for-the-domain" class="anchor-heading" aria-labelledby="after-creating-the-virtual-host-file-we-need-to-add-the-local-host-for-the-domain"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> After Creating the Virtual Host file we need to add the local host for the domain.
+  
+  
+</h2>
+    
+
+<ul>
+  <li>Need to update the CA certificate’s run the below command to update the CA certs.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>update-ca-trust extract
+</code></pre></div>    </div>
+  </li>
+  <li>After adding the SSL certificates and virtual hosts we need to add the domain to the hosts file to the local host as below.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano /etc/hosts
+</code></pre></div>    </div>
+  </li>
+  <li>In the above file add the below line replace the domain or the IP which is used for the faveo.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>127.0.0.1  ---Domain or IP---
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>After the above is done then we need to add the the ca-cert file path to the php.ini file add the path to the openssl.cafile like this : “<b>openssl.cafile = “/etc/pki/tls/certs/ca-bundle.crt”</b></p>
+  </li>
+  <li>Now check the faveo on the Browser it will take you to probe page, if everything is good then you can proceed with the installation in Browser.</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-06-09">June 9, 2020</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/dummy/docs/installation/providers/enterprise/rocky9-nginx/" class="pagination--pager" title="Installing Faveo Helpdesk on Rocky OS With Nginx Webserver
+">Previous</a>
+    
+    
+      <a href="/dummy/docs/installation/providers/enterprise/self-signed-ssl-windows/" class="pagination--pager" title="Install Self-Signed SSL for Faveo on Windows
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+          
+
+          
+            
+          
+        </main>
+        
+
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+</body>
+</html>
+
